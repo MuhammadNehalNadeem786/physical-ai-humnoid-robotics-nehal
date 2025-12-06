@@ -1,0 +1,60 @@
+# Gitignore for Unified Book + RAG Chatbot Project
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.Python/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.ipynb_checkpoints/
+.DS_Store
+
+# Node.js
+node_modules/
+dist/
+build/
+.cache/
+.next/ # For Docusaurus which can use Next.js under the hood
+out/
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+.npm/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosf
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+.Trash
+ehthumbs.db
+Thumbs.db
+
+# Docusaurus specific (if not covered by Node.js)
+docusaurus-plugin-generated/
+.docusaurus/

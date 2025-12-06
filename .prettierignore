@@ -1,0 +1,28 @@
+# Prettier ignore file
+
+node_modules/
+dist/
+build/
+coverage/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Docusaurus specific
+.docusaurus/
+docusaurus-plugin-generated/
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,185 @@
+/* ChapterTranslator.module.css - Minimal & Simple */
+
+/* Theme Variables - Subtle & Muted Colors */
+:root {
+  /* Dark Theme (Default) */
+  --translator-btn-bg: #374151;
+  --translator-btn-text: #f9fafb;
+  --translator-btn-hover: #4b5563;
+  --translator-btn-shadow: rgba(0, 0, 0, 0.2);
+  --translator-error-bg: rgba(248, 113, 113, 0.1);
+  --translator-error-border: rgba(248, 113, 113, 0.25);
+  --translator-error-text: #fca5a5;
+}
+
+[data-theme='light'] {
+  --translator-btn-bg: #f3f4f6;
+  --translator-btn-text: #1f2937;
+  --translator-btn-hover: #e5e7eb;
+  --translator-btn-shadow: rgba(0, 0, 0, 0.08);
+  --translator-error-bg: rgba(239, 68, 68, 0.06);
+  --translator-error-border: rgba(239, 68, 68, 0.2);
+  --translator-error-text: #dc2626;
+}
+
+[data-theme='dark'] {
+  --translator-btn-bg: #1f2937;
+  --translator-btn-text: #e5e7eb;
+  --translator-btn-hover: #374151;
+  --translator-btn-shadow: rgba(0, 0, 0, 0.3);
+  --translator-error-bg: rgba(248, 113, 113, 0.12);
+  --translator-error-border: rgba(248, 113, 113, 0.3);
+  --translator-error-text: #fca5a5;
+}
+
+/* Wrapper */
+.translatorWrapper {
+  margin: 1.5rem 0;
+}
+
+/* Button */
+.translateButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  margin-bottom: 1rem;
+  background: var(--translator-btn-bg);
+  color: var(--translator-btn-text);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px var(--translator-btn-shadow);
+}
+
+[data-theme='light'] .translateButton {
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] .translateButton {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.translateButton:hover {
+  background: var(--translator-btn-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px var(--translator-btn-shadow);
+}
+
+.translateButton:active {
+  transform: translateY(0);
+}
+
+.translateButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Button Content */
+.buttonContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+/* Loader */
+.loader {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: var(--translator-btn-text);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Error Message */
+.errorMessage {
+  padding: 12px 16px;
+  margin-bottom: 1rem;
+  background: var(--translator-error-bg);
+  border: 1px solid var(--translator-error-border);
+  border-radius: 6px;
+  color: var(--translator-error-text);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.errorMessage::before {
+  content: '⚠️';
+  font-size: 1.1rem;
+}
+
+/* Retry Button */
+.retryButton {
+  padding: 6px 14px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--translator-error-border);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--translator-error-text);
+  transition: all 0.2s ease;
+}
+
+.retryButton:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .retryButton {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme='dark'] .retryButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Content */
+.content {
+  line-height: 1.7;
+}
+
+/* Urdu Content */
+.urduContent {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Noto Nastaliq Urdu', Arial, sans-serif;
+  line-height: 2;
+  font-size: 1.1em;
+}
+
+/* English Content */
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .translateButton {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .errorMessage {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .retryButton {
+    width: 100%;
+  }
+}

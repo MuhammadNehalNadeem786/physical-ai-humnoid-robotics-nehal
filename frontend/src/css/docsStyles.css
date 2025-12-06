@@ -1,0 +1,329 @@
+/* src/css/custom.css — ENHANCED GOOGLE DEVELOPER DOCUMENTATION THEME 2025 */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700;800&family=Google+Sans+Text:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap');
+
+/* === Core Google Palette === */
+:root {
+    --g-blue: #1a73e8;
+    --g-blue-hover: #1557b0;
+    --g-blue-active: #0d47a1;
+    --g-blue-light: #8ab4f8;
+    --g-blue-surface: #e8f0fe;
+    --g-gray-50: #f8f9fa;
+    --g-gray-100: #f1f3f4;
+    --g-gray-200: #e8eaed;
+    --g-gray-300: #dadce0;
+    --g-gray-500: #9aa0a6;
+    --g-gray-600: #80868b;
+    --g-gray-700: #5f6368;
+    --g-gray-900: #202124;
+
+    --ifm-color-primary: var(--g-blue);
+    --ifm-color-primary-dark: #1669c1;
+    --ifm-color-primary-darker: #1357a6;
+    --ifm-color-primary-darkest: #0d4781;
+    --ifm-color-primary-light: #3d8ff0;
+    --ifm-color-primary-lighter: #5ea0f5;
+    --ifm-color-primary-lightest: #8ab4f8;
+}
+
+/* === Light Theme === */
+:root {
+    --doc-bg: #ffffff;
+    --doc-surface: #f8f9fa;
+    --doc-surface-2: #ffffff;
+    --doc-text: #202124;
+    --doc-text-secondary: #5f6368;
+    --doc-text-muted: #80868b;
+    --doc-border: #dadce0;
+    --doc-hover: #f1f3f4;
+    --doc-code-bg: #f1f3f4;
+    --doc-sidebar-bg: #ffffff;
+    --doc-sidebar-border: #dadce0;
+    --doc-active-bg: #e8f0fe;
+    --doc-active-text: #185abc;
+    --doc-link: #1a73e8;
+    --doc-sidebar-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+}
+
+/* === Dark Theme === */
+[data-theme='dark'] {
+    --doc-bg: #000000;
+    --doc-surface: #1f1f1f;
+    --doc-surface-2: #000000;
+    --doc-text: #e8eaed;
+    --doc-text-secondary: #9aa0a6;
+    --doc-text-muted: #80868b;
+    --doc-border: #3c4043;
+    --doc-hover: #353536;
+    --doc-code-bg: #2c2c2c;
+    --doc-sidebar-bg: #000000;
+    --doc-sidebar-border: #3c4043;
+    --doc-active-bg: rgba(138, 180, 248, 0.22);
+    --doc-active-text: #8ab4f8;
+    --doc-link: #8ab4f8;
+    --doc-sidebar-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* === Global Typography === */
+html,
+body {
+    font-family: 'Google Sans Text', system-ui, -apple-system, sans-serif;
+    font-size: 15.5px;
+    line-height: 1.65;
+    color: var(--doc-text);
+    background: var(--doc-bg);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* Headings — Google Style with Strong Hierarchy */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: var(--doc-text);
+    margin: 3rem 0 1.2rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    line-height: 1.15;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.1rem;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 1.65rem;
+    line-height: 1.35;
+}
+
+h4 {
+    font-size: 1.35rem;
+    line-height: 1.4;
+}
+
+/* === Layout === */
+.theme-doc-markdown {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 3.5rem 2.5rem;
+    background: var(--doc-surface-2);
+    border-radius: 0 12px 12px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* === Navbar === */
+.navbar {
+    background: var(--doc-bg);
+    border-bottom: 1px solid var(--doc-border);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+    height: 68px;
+    padding: 0 32px;
+    backdrop-filter: blur(12px);
+}
+
+.navbar__brand {
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.55rem;
+    color: var(--doc-text);
+    letter-spacing: -0.02em;
+}
+
+/* === SIDEBAR — WIDER, BOLDER, HIERARCHICAL === */
+.theme-doc-sidebar-container {
+    background: var(--doc-sidebar-bg) !important;
+    border-right: 1px solid var(--doc-sidebar-border) !important;
+    width: 400px !important;
+    /* ← Increased width */
+    box-shadow: var(--doc-sidebar-shadow);
+    transition: width 0.3s ease;
+    z-index: 10;
+}
+
+.menu {
+    padding: 2rem 2 2 0rem;
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100vh - 68px);
+    margin-left: 20px;
+
+}
+
+/* Top-level module titles (h1 equivalent) — BIG & BOLD */
+.menu__list-item>.menu__link {
+    font-family: 'Google Sans', sans-serif !important;
+    font-size: 1.35rem !important;
+    /* Big module title */
+    font-weight: 600 !important;
+    padding: 0.9rem 1.8rem !important;
+    color: var(--doc-text) !important;
+    border-left: 4px solid transparent;
+    margin: 0.6rem 0;
+    border-radius: 0 8px 8px 0;
+    transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu__list-item>.menu__link:hover {
+    background: var(--doc-hover);
+    border-left-color: var(--g-blue);
+    padding-left: 2rem !important;
+}
+
+.menu__list-item>.menu__link--active {
+    background: var(--doc-active-bg);
+    color: var(--doc-active-text) !important;
+    font-weight: 700 !important;
+    border-left-color: var(--g-blue);
+}
+
+/* Nested / child items — smaller and lighter */
+.menu__list .menu__list .menu__link {
+    font-size: 0.94rem !important;
+    /* Smaller than parent */
+    font-weight: 500 !important;
+    padding: 0.65rem 2.2rem !important;
+    color: var(--doc-text-secondary) !important;
+    border-radius: 0 8px 8px 0;
+}
+
+.menu__list .menu__list .menu__link:hover {
+    background: var(--doc-hover);
+    color: var(--doc-text) !important;
+    padding-left: 2.4rem !important;
+}
+
+.menu__list .menu__list .menu__link--active {
+    background: var(--doc-active-bg);
+    color: var(--doc-active-text) !important;
+    font-weight: 600 !important;
+}
+
+/* Active indicator bar */
+.menu__link--active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.7rem;
+    bottom: 0.7rem;
+    width: 5px;
+    background: var(--g-blue);
+    border-radius: 0 3px 3px 0;
+}
+
+[data-theme='dark'] .menu__link--active::before {
+    background: #8ab4f8;
+}
+
+/* === Code Blocks === */
+pre {
+    background: var(--doc-code-bg) !important;
+    border: 1px solid var(--doc-border);
+    border-radius: 16px !important;
+    padding: 1.5rem !important;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+pre code {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    background: none !important;
+}
+
+/* Inline code */
+code {
+    font-family: 'Roboto Mono', monospace;
+    background: var(--doc-code-bg);
+    color: var(--g-blue);
+    padding: 0.2em 0.5em;
+    border-radius: 6px;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+
+/* === Links & Buttons === */
+a {
+    color: var(--doc-link);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+/* Enhanced Primary Button */
+.button--primary,
+.chapter-translator-button {
+    background: var(--g-blue) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 0.75rem 1.6rem !important;
+    font-family: 'Google Sans', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    box-shadow: 0 3px 8px rgba(26, 115, 232, 0.25) !important;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.button--primary:hover,
+.chapter-translator-button:hover {
+    background: var(--g-blue-hover) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(26, 115, 232, 0.35) !important;
+}
+
+[data-theme='dark'] .button--primary,
+[data-theme='dark'] .chapter-translator-button {
+    background: #8ab4f8 !important;
+    color: #000 !important;
+}
+
+[data-theme='dark'] .button--primary:hover,
+[data-theme='dark'] .chapter-translator-button:hover {
+    background: #6699ff !important;
+    box-shadow: 0 8px 20px rgba(138, 180, 248, 0.4) !important;
+}
+
+/* === Footer === */
+.footer {
+    background: var(--doc-surface);
+    border-top: 1px solid var(--doc-border);
+    padding: 2.5rem 0;
+    font-size: 14.5px;
+    color: var(--doc-text-secondary);
+}
+
+/* === Responsive === */
+@media (max-width: 1200px) {
+    .theme-doc-sidebar-container {
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 996px) {
+    .theme-doc-markdown {
+        padding: 2.5rem 1.5rem;
+        border-radius: 12px;
+    }
+
+    .theme-doc-sidebar-container {
+        width: 280px !important;
+    }
+}
