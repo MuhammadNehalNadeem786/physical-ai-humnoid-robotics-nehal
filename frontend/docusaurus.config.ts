@@ -36,6 +36,17 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          // This is the important line:
+          onBrokenLinks: 'warn', // or 'ignore'
+          // ... other docs config
+        },
+        // ... other preset-classic config
+      },
+    ],
   ],
 
   themeConfig: {
