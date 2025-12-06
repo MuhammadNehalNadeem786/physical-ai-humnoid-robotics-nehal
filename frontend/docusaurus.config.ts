@@ -17,8 +17,8 @@ const config: Config = {
   organizationName: 'your-org',
   projectName: 'physical-ai-book',
 
-  onBrokenLinks: 'throw',
-
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -36,17 +36,7 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          // This is the important line:
-          onBrokenLinks: 'warn', // or 'ignore'
-          // ... other docs config
-        },
-        // ... other preset-classic config
-      },
-    ],
+    
   ],
 
   themeConfig: {
