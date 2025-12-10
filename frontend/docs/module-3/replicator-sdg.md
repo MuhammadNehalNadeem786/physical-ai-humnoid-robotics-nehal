@@ -1,3 +1,0 @@
-# Replicator SDG
-
-Procedural scenes.

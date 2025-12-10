@@ -1,3 +1,0 @@
-# Physics Engines
-
-Realistic dynamics.

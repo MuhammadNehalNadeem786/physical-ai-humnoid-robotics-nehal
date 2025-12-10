@@ -1,3 +1,0 @@
-# cuVSLAM
-
-GPU visual SLAM.
