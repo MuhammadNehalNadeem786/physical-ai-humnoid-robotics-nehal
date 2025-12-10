@@ -1,0 +1,80 @@
+openapi: 3.0.0
+info:
+  title: Personalization API
+  version: 1.0.0
+  description: API for managing user-specific personalization settings like highlights, notes, and reading progress.
+paths:
+  /personalization/{user_id}/chapter/{chapter_id}:
+    get:
+      summary: Get user personalization settings for a specific chapter
+      parameters:
+        - name: user_id
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: chapter_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Personalization settings retrieved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  highlights:
+                    type: array
+                    items:
+                      type: string
+                  notes:
+                    type: array
+                    items:
+                      type: string
+                  reading_progress:
+                    type: string
+        '404':
+          description: Settings not found for user/chapter
+    put:
+      summary: Update user personalization settings for a specific chapter
+      parameters:
+        - name: user_id
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: chapter_id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                highlights:
+                  type: array
+                  items:
+                    type: string
+                  description: Array of text ranges or IDs for highlighted sections
+                notes:
+                  type: array
+                  items:
+                    type: string
+                  description: Array of user-generated notes
+                reading_progress:
+                  type: string
+                  description: Current reading position within a chapter
+      responses:
+        '200':
+          description: Settings successfully updated
+        '400':
+          description: Invalid input
+        '401':
+          description: Unauthorized access

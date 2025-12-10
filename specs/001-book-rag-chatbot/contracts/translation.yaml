@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: Translation API
+  version: 1.0.0
+  description: API for retrieving per-chapter translated content.
+paths:
+  /translation/chapter/{chapter_id}:
+    get:
+      summary: Get translated content for a specific chapter
+      parameters:
+        - name: chapter_id
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: language
+          in: query
+          required: true
+          schema:
+            type: string
+            description: Target language code (e.g., 'ur' for Urdu)
+      responses:
+        '200':
+          description: Translated chapter content retrieved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  translated_content:
+                    type: string
+        '404':
+          description: Translation not found for chapter/language

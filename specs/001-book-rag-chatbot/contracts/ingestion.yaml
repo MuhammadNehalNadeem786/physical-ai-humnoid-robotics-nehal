@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info:
+  title: Content Ingestion API
+  version: 1.0.0
+  description: Internal API for manual ingestion of book content into the RAG chatbot's knowledge base.
+paths:
+  /ingest/chapter:
+    post:
+      summary: Ingest a new chapter's content
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                chapter_id:
+                  type: string
+                title:
+                  type: string
+                content:
+                  type: string
+                  description: Markdown or HTML content of the chapter
+      responses:
+        '202':
+          description: Chapter content accepted for ingestion
+        '400':
+          description: Invalid content or missing fields
+        '401':
+          description: Unauthorized (admin access required)
