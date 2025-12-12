@@ -4,7 +4,7 @@ Creating a Full Humanoid URDF (Unified Robot Description Format) is a complex bu
 
 ---
 
-## 🧩 Key Structural Components
+## Key Structural Components
 
 The humanoid URDF is fundamentally a kinematic chain starting from a single, unmoving root link and branching out to all the extremities.
 
@@ -30,7 +30,7 @@ The humanoid URDF is fundamentally a kinematic chain starting from a single, unm
 
 ---
 
-## 🏷️ Essential URDF Tags for Humanoids
+## Essential URDF Tags for Humanoids
 
 Building a full humanoid requires meticulous detail in all four main properties of each link.
 

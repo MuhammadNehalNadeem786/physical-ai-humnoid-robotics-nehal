@@ -1,12 +1,12 @@
 # Project 2.1: Walking Humanoid in Gazebo
 
-## 📝 Introduction
+## Introduction
 
 This project focuses on simulating a **walking humanoid robot in Gazebo**, aiming to achieve **10 consecutive steps without falling**. It combines **URDF modeling, physics simulation, sensor integration, and control algorithms** to ensure stable bipedal locomotion. This detailed guide expands on each step with practical considerations and best practices.
 
 ---
 
-## ⚙️ 10-Step Detailed Procedure
+## 10-Step Detailed Procedure
 
 ### Step 1: Prepare the ROS 2 Workspace
 
@@ -90,7 +90,7 @@ This project focuses on simulating a **walking humanoid robot in Gazebo**, aimin
 
 ---
 
-## 🔹 Key Considerations
+## Key Considerations
 
 * Maintain **low center of mass** for stability.
 * Use **smooth trajectories** for ankle, knee, and hip joints.
@@ -100,7 +100,7 @@ This project focuses on simulating a **walking humanoid robot in Gazebo**, aimin
 
 ---
 
-## 🔗 References
+## References
 
 1. [Gazebo Humanoid Simulation Tutorials](https://gazebosim.org/tutorials)
 2. [ROS 2 Control Documentation](https://ros-controls.github.io/ros2_control)

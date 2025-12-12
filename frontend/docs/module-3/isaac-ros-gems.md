@@ -1,8 +1,8 @@
 # Isaac ROS Gems
 
-## 🧩 High-Performance Robotics Building Blocks
+## High-Performance Robotics Building Blocks
 
-## 📝 Introduction
+## Introduction
 
 **Isaac ROS Gems** are a collection of **GPU-accelerated, production-quality ROS 2 packages** developed by NVIDIA to accelerate robotics development. They provide optimized perception, navigation, and AI processing pipelines that run efficiently on **NVIDIA GPUs and Jetson platforms**.
 
@@ -10,7 +10,7 @@ Isaac ROS Gems act as **ready-to-use brain components** for robots, enabling rea
 
 ---
 
-## 🚀 What Are Isaac ROS Gems?
+## What Are Isaac ROS Gems?
 
 Isaac ROS Gems are modular software components that:
 
@@ -23,7 +23,7 @@ They form a bridge between **AI algorithms and robotic hardware**.
 
 ---
 
-## 🧠 Role in the AI-Robot Brain
+## Role in the AI-Robot Brain
 
 In the AI-robot stack, Isaac ROS Gems handle:
 
@@ -36,7 +36,7 @@ They allow the robot’s brain to **process sensory data faster, more accurately
 
 ---
 
-## ⚙️ Key Characteristics
+## Key Characteristics
 
 ### 1. GPU Acceleration
 
@@ -58,7 +58,7 @@ They allow the robot’s brain to **process sensory data faster, more accurately
 
 ---
 
-## 🌐 Major Application Areas
+## Major Application Areas
 
 ### Perception
 
@@ -80,7 +80,7 @@ They allow the robot’s brain to **process sensory data faster, more accurately
 
 ---
 
-## 🔁 Simulation to Real Deployment
+## Simulation to Real Deployment
 
 Isaac ROS Gems work seamlessly alongside **Isaac Sim**, enabling:
 
@@ -92,7 +92,7 @@ This shared ecosystem significantly reduces integration effort.
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Extreme performance improvements
 * Reduced CPU load
@@ -102,7 +102,7 @@ This shared ecosystem significantly reduces integration effort.
 
 ---
 
-## ⚠️ Considerations
+## Considerations
 
 * Requires NVIDIA GPU hardware
 * Best suited for performance-critical systems
@@ -110,7 +110,7 @@ This shared ecosystem significantly reduces integration effort.
 
 ---
 
-## 🎓 Importance in Modern Robotics
+## Importance in Modern Robotics
 
 Isaac ROS Gems represent a shift toward **hardware-accelerated robotics**, where AI perception and control must operate in real time. They are foundational for:
 
@@ -120,13 +120,13 @@ Isaac ROS Gems represent a shift toward **hardware-accelerated robotics**, where
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 **Isaac ROS Gems transform ROS 2 from a general robotics framework into a high-performance AI robotics platform**, enabling robots to think and react at machine speed.
 
 ---
 
-## 🔗 References
+## References
 
 * NVIDIA Isaac ROS Documentation
 * NVIDIA Robotics Developer Resources

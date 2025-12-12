@@ -1,6 +1,6 @@
 # Whisper Live → ROS 2
 
-## 📝 Introduction
+## Introduction
 
 **Whisper Live** refers to the integration of **OpenAI's Whisper model** for real-time speech recognition into **ROS 2** robotics systems. This enables robots to **understand and act upon verbal commands in real time**, bridging natural language input with robotic perception and control.
 
@@ -8,7 +8,7 @@ Whisper Live on ROS 2 forms a key component of **Vision-Language-Action (VLA) pi
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Speech Recognition
 
@@ -30,7 +30,7 @@ Whisper Live on ROS 2 forms a key component of **Vision-Language-Action (VLA) pi
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Audio Capture:** Robot captures live audio via microphones
 2. **Whisper Processing:** Audio stream is fed to Whisper model
@@ -41,7 +41,7 @@ Whisper Live on ROS 2 forms a key component of **Vision-Language-Action (VLA) pi
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Humanoid robots responding to verbal instructions
 * Industrial robots receiving live voice commands
@@ -50,7 +50,7 @@ Whisper Live on ROS 2 forms a key component of **Vision-Language-Action (VLA) pi
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Real-time voice command recognition
 * Supports multi-lingual environments
@@ -59,7 +59,7 @@ Whisper Live on ROS 2 forms a key component of **Vision-Language-Action (VLA) pi
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Audio noise in real-world environments
 * Accurate intent parsing from transcribed text
@@ -68,7 +68,7 @@ Whisper Live on ROS 2 forms a key component of **Vision-Language-Action (VLA) pi
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Understanding real-time speech recognition integration in ROS 2
 * Linking voice commands to robotic actions in VLA pipelines
@@ -77,7 +77,7 @@ Whisper Live on ROS 2 forms a key component of **Vision-Language-Action (VLA) pi
 
 ---
 
-## 🔗 References
+## References
 
 * OpenAI Whisper Documentation
 * ROS 2 Audio and Topic Integration Guides

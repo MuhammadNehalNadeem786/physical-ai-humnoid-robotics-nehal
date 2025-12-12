@@ -1,6 +1,6 @@
 # Prompt Engineering for Robots
 
-## 📝 Introduction
+## Introduction
 
 **Prompt Engineering** for robots involves designing **effective instructions or queries for AI models** so that robots can perform desired tasks accurately. In Vision-Language-Action (VLA) robotics, prompt engineering ensures that **language models interpret human instructions correctly** and translate them into actionable commands.
 
@@ -8,7 +8,7 @@ This concept is crucial when integrating **foundation models, NLP modules, and c
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Prompts in AI Robotics
 
@@ -37,7 +37,7 @@ This concept is crucial when integrating **foundation models, NLP modules, and c
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Define Task:** Determine what the robot needs to do
 2. **Design Prompt:** Craft clear and context-aware instruction
@@ -48,7 +48,7 @@ This concept is crucial when integrating **foundation models, NLP modules, and c
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Voice-controlled humanoids executing multi-step tasks
 * Industrial robots performing complex manipulations
@@ -57,7 +57,7 @@ This concept is crucial when integrating **foundation models, NLP modules, and c
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Enhances human-robot interaction with intuitive communication
 * Leverages foundation models for generalized understanding
@@ -66,7 +66,7 @@ This concept is crucial when integrating **foundation models, NLP modules, and c
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Designing prompts that are unambiguous and complete
 * Handling edge cases in task execution
@@ -75,7 +75,7 @@ This concept is crucial when integrating **foundation models, NLP modules, and c
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Understanding the role of prompt engineering in VLA robotics
 * Crafting effective prompts for task execution
@@ -84,7 +84,7 @@ This concept is crucial when integrating **foundation models, NLP modules, and c
 
 ---
 
-## 🔗 References
+## References
 
 * Prompt Engineering for AI Robotics Research
 * Vision-Language-Action (VLA) Papers

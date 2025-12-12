@@ -1,6 +1,6 @@
 # Project 3.2: Real-Time 3D Reconstruction
 
-## 📝 Introduction
+## Introduction
 
 **Project 3.2** focuses on implementing **real-time 3D reconstruction** in NVIDIA Isaac Sim for robotics applications. This project demonstrates how robots can **perceive and model their environment in three dimensions** using simulated sensors, enabling navigation, manipulation, and interaction tasks.
 
@@ -8,7 +8,7 @@ Real-time 3D reconstruction is essential for **dynamic environments** where maps
 
 ---
 
-## 🌐 Objectives
+## Objectives
 
 * Understand how to integrate depth and RGB sensors in Isaac Sim
 * Generate dense 3D maps using NVBlox or VSLAM pipelines
@@ -17,7 +17,7 @@ Real-time 3D reconstruction is essential for **dynamic environments** where maps
 
 ---
 
-## 🧠 Core Components
+## Core Components
 
 ### 1. Sensor Integration
 
@@ -50,7 +50,7 @@ Real-time 3D reconstruction is essential for **dynamic environments** where maps
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. Launch Isaac Sim environment with robot and sensors
 2. Configure NVBlox or VSLAM pipelines for real-time mapping
@@ -62,7 +62,7 @@ Real-time 3D reconstruction is essential for **dynamic environments** where maps
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Humanoid robot navigation in complex indoor environments
 * Object recognition and manipulation using 3D maps
@@ -71,7 +71,7 @@ Real-time 3D reconstruction is essential for **dynamic environments** where maps
 
 ---
 
-## ✅ Learning Outcomes
+## Learning Outcomes
 
 * Mastery of **real-time 3D reconstruction in simulation**
 * Ability to integrate multiple sensors for high-fidelity maps
@@ -80,7 +80,7 @@ Real-time 3D reconstruction is essential for **dynamic environments** where maps
 
 ---
 
-## 🔗 References
+## References
 
 * NVIDIA Isaac Sim Documentation
 * NVBlox and VSLAM Papers

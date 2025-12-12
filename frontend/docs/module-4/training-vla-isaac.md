@@ -1,6 +1,6 @@
 # Training VLA in Isaac Sim
 
-## 📝 Introduction
+## Introduction
 
 **Training Vision-Language-Action (VLA) models in Isaac Sim** involves using the high-fidelity simulation environment to **train robots to understand visual inputs, interpret language instructions, and execute actions**. This approach allows for **safe, scalable, and accelerated learning** without physical hardware constraints.
 
@@ -8,7 +8,7 @@ Isaac Sim supports realistic physics, sensor simulation, and environment variati
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Multi-Modal Inputs
 
@@ -37,7 +37,7 @@ Isaac Sim supports realistic physics, sensor simulation, and environment variati
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Environment Setup:** Define simulation scenes, objects, and robot models in Isaac Sim
 2. **Sensor Configuration:** Enable cameras, LiDAR, IMU, and other sensors
@@ -49,7 +49,7 @@ Isaac Sim supports realistic physics, sensor simulation, and environment variati
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Humanoid robots following complex multi-step instructions
 * Multi-task learning with generalizable VLA capabilities
@@ -58,7 +58,7 @@ Isaac Sim supports realistic physics, sensor simulation, and environment variati
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Safe, scalable, and repeatable training environment
 * Supports **high-dimensional multi-modal learning**
@@ -67,7 +67,7 @@ Isaac Sim supports realistic physics, sensor simulation, and environment variati
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Domain gap between simulation and real-world deployment
 * Computationally intensive for high-fidelity simulations
@@ -76,7 +76,7 @@ Isaac Sim supports realistic physics, sensor simulation, and environment variati
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Training and deploying VLA policies in Isaac Sim
 * Integrating vision, language, and action modalities for learning
@@ -85,7 +85,7 @@ Isaac Sim supports realistic physics, sensor simulation, and environment variati
 
 ---
 
-## 🔗 References
+## References
 
 * NVIDIA Isaac Sim Training Tutorials
 * Vision-Language-Action Research Papers

@@ -1,6 +1,6 @@
 # Capstone: Autonomous Humanoid Assistant
 
-## 📝 Introduction
+## Introduction
 
 The **Capstone Project** focuses on developing a **fully autonomous humanoid robot** in simulation that integrates **Vision-Language-Action (VLA) pipelines**. This project serves as the culmination of all previous modules, combining **voice recognition, natural language understanding, action tokenization, navigation, computer vision, and manipulation** into a single, end-to-end robotic system.
 
@@ -8,7 +8,7 @@ The robot can **receive voice commands, plan paths, navigate obstacles, identify
 
 ---
 
-## 🌐 Objectives
+## Objectives
 
 * Implement end-to-end **VLA capabilities** in a simulated humanoid robot
 * Integrate real-time voice recognition for human instruction
@@ -19,7 +19,7 @@ The robot can **receive voice commands, plan paths, navigate obstacles, identify
 
 ---
 
-## 🧠 Core Components
+## Core Components
 
 ### 1. Voice Command Integration
 
@@ -59,7 +59,7 @@ The robot can **receive voice commands, plan paths, navigate obstacles, identify
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Command Capture:** User gives a voice instruction
 2. **Speech Recognition:** Convert speech to text in real time
@@ -74,7 +74,7 @@ The robot can **receive voice commands, plan paths, navigate obstacles, identify
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Autonomous humanoid assistants for home or office environments
 * Research in multi-modal AI-driven robotics
@@ -83,7 +83,7 @@ The robot can **receive voice commands, plan paths, navigate obstacles, identify
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * End-to-end integration of voice, vision, and action
 * Adaptive and autonomous multi-step task execution
@@ -92,7 +92,7 @@ The robot can **receive voice commands, plan paths, navigate obstacles, identify
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Real-time multi-modal integration with low latency
 * Accurate mapping from natural language to complex actions
@@ -101,7 +101,7 @@ The robot can **receive voice commands, plan paths, navigate obstacles, identify
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Mastery of **VLA pipelines** for humanoid robots
 * Practical experience in voice-controlled autonomous tasks
@@ -110,7 +110,7 @@ The robot can **receive voice commands, plan paths, navigate obstacles, identify
 
 ---
 
-## 🔗 References
+## References
 
 * NVIDIA Isaac Sim Tutorials
 * ROS 2 Navigation (Nav2) and Control Guides

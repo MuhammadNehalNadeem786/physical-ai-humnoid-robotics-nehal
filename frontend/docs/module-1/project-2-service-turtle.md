@@ -4,7 +4,7 @@ The **Turtle Control Service** project introduces **ROS 2 services**, which prov
 
 ---
 
-## 📝 Concept Overview
+## Concept Overview
 
 In ROS 2, nodes can communicate not only via topics but also using **services**:
 
@@ -24,7 +24,7 @@ This project uses **the turtlesim simulation**, which provides a simple 2D turtl
 
 ---
 
-## 🔑 Key Components
+## Key Components
 
 ### Node
 - Each service is encapsulated in a node.
@@ -48,7 +48,7 @@ This project uses **the turtlesim simulation**, which provides a simple 2D turtl
 
 ---
 
-## 🚀 Learning Objectives
+## Learning Objectives
 
 By completing the Turtle Control Service project, you will:
 
@@ -60,7 +60,7 @@ By completing the Turtle Control Service project, you will:
 
 ---
 
-## ⚡ Real-World Analogy
+## Real-World Analogy
 
 - The **Service Client** is like a user pressing a button on a remote control.
 - The **Service Server** is like the machine or robot receiving the command and performing the task.

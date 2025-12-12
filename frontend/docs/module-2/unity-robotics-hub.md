@@ -1,6 +1,6 @@
 # Unity Robotics Hub
 
-## 📝 Introduction
+## Introduction
 
 **Unity Robotics Hub** is a collection of tools, tutorials, and packages designed to **bridge Unity and robotics frameworks** such as ROS and ROS 2. It allows developers to **simulate robots, sensors, and environments** within Unity while integrating with real robot software stacks.
 
@@ -13,7 +13,7 @@ Unity Robotics Hub enables:
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
 1. **ROS/ROS 2 Integration**
 
@@ -42,7 +42,7 @@ Unity Robotics Hub enables:
 
 ---
 
-## 🔹 Advantages
+## Advantages
 
 * High-fidelity **visualization** and realistic physics.
 * Smooth **integration with ROS/ROS 2**.
@@ -52,7 +52,7 @@ Unity Robotics Hub enables:
 
 ---
 
-## 🔹 Best Practices
+## Best Practices
 
 * Use **prefabs and reusable assets** for modular environments.
 * Keep ROS communication lightweight to avoid performance issues.
@@ -62,7 +62,7 @@ Unity Robotics Hub enables:
 
 ---
 
-## 🔗 References
+## References
 
 1. [Unity Robotics Hub GitHub](https://github.com/Unity-Technologies/Unity-Robotics-Hub)
 2. [ROS-TCP-Connector Documentation](https://github.com/Unity-Technologies/ROS-TCP-Connector)

@@ -1,6 +1,6 @@
 # Custom Gazebo Plugins
 
-## 📝 Introduction
+## Introduction
 
 **Custom Gazebo plugins** allow developers to extend Gazebo's capabilities by adding **user-defined behaviors, sensors, actuators, and controllers**. They are essential for simulating complex robots and interactions that are not available in default Gazebo models.
 
@@ -13,7 +13,7 @@ Plugins are written in **C++** and interact with Gazebo via its **plugin interfa
 
 ---
 
-## ⚙️ Types of Gazebo Plugins
+## Types of Gazebo Plugins
 
 1. **World Plugins**
 
@@ -37,7 +37,7 @@ Plugins are written in **C++** and interact with Gazebo via its **plugin interfa
 
 ---
 
-## 🔹 Advantages of Custom Plugins
+## Advantages of Custom Plugins
 
 * Tailor the simulation to **specific robot or research needs**.
 * Simulate behaviors **not natively supported** in Gazebo.
@@ -46,7 +46,7 @@ Plugins are written in **C++** and interact with Gazebo via its **plugin interfa
 
 ---
 
-## 🔹 Best Practices
+## Best Practices
 
 * Keep plugins **modular and reusable**.
 * Use **ROS/ROS 2 topics and services** to communicate with external nodes.
@@ -56,7 +56,7 @@ Plugins are written in **C++** and interact with Gazebo via its **plugin interfa
 
 ---
 
-## 🔗 References
+## References
 
 1. [Gazebo Plugins Overview](https://gazebosim.org/tutorials?tut=plugins_overview)
 2. [Writing Model Plugins](https://gazebosim.org/tutorials?tut=model_plugin)

@@ -1,6 +1,6 @@
 # GPT-4o Realtime API
 
-## 📝 Introduction
+## Introduction
 
 The **GPT-4o Realtime API** provides **real-time, low-latency interaction with large language models**, enabling robots to process natural language instructions and respond instantaneously. When integrated into **Vision-Language-Action (VLA) robotics pipelines**, it allows humanoid and autonomous robots to understand and act on human instructions in real time.
 
@@ -8,7 +8,7 @@ This API supports **streaming outputs, interactive conversation, and multi-modal
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Real-Time Interaction
 
@@ -35,7 +35,7 @@ This API supports **streaming outputs, interactive conversation, and multi-modal
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Speech/Command Capture:** Robot receives audio or text input
 2. **Language Processing:** Transcription via Whisper or direct text input
@@ -46,7 +46,7 @@ This API supports **streaming outputs, interactive conversation, and multi-modal
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Humanoid robots responding to live voice commands
 * Interactive AI assistants in dynamic environments
@@ -55,7 +55,7 @@ This API supports **streaming outputs, interactive conversation, and multi-modal
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Instantaneous understanding and action based on human instructions
 * Streamed outputs allow early task initiation
@@ -64,7 +64,7 @@ This API supports **streaming outputs, interactive conversation, and multi-modal
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Requires stable network or edge deployment for low-latency
 * Managing multi-turn dialogues in real-time environments
@@ -73,7 +73,7 @@ This API supports **streaming outputs, interactive conversation, and multi-modal
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Understanding GPT-4o Realtime API in robotic applications
 * Integrating large language models with ROS 2 pipelines
@@ -82,7 +82,7 @@ This API supports **streaming outputs, interactive conversation, and multi-modal
 
 ---
 
-## 🔗 References
+## References
 
 * OpenAI GPT-4o Realtime API Documentation
 * ROS 2 Integration Guides

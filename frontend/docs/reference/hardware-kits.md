@@ -1,6 +1,6 @@
 # Reference: Hardware Kits
 
-## 📝 Introduction
+## Introduction
 
 **Hardware kits** provide the physical components required to build and experiment with humanoid and autonomous robots. These kits are essential for translating **simulation-based learning** (like Isaac Sim and Gazebo) into **real-world robot deployment**. They typically include actuators, sensors, controllers, and structural parts.
 
@@ -8,7 +8,7 @@ Understanding the available hardware kits helps bridge the gap between **simulat
 
 ---
 
-## 🌐 Common Hardware Kits for Humanoids
+## Common Hardware Kits for Humanoids
 
 ### 1. Robotis OP3 / OP2 Kits
 
@@ -42,7 +42,7 @@ Understanding the available hardware kits helps bridge the gap between **simulat
 
 ---
 
-## ⚙️ Components to Consider
+## Components to Consider
 
 * **Actuators:** Servos, harmonic drives, brushless motors for joints
 * **Sensors:** LiDAR, RGB-D cameras, IMUs, force sensors
@@ -52,7 +52,7 @@ Understanding the available hardware kits helps bridge the gap between **simulat
 
 ---
 
-## ✅ Advantages of Using Hardware Kits
+## Advantages of Using Hardware Kits
 
 * Provides **hands-on experience** with real robots
 * Enables **sim-to-real testing** of trained VLA models
@@ -61,7 +61,7 @@ Understanding the available hardware kits helps bridge the gap between **simulat
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * High cost of high-performance humanoid kits
 * Maintenance and calibration requirements
@@ -70,7 +70,7 @@ Understanding the available hardware kits helps bridge the gap between **simulat
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Understanding the types and capabilities of humanoid hardware kits
 * Selecting appropriate kits for simulation-to-real projects
@@ -79,7 +79,7 @@ Understanding the available hardware kits helps bridge the gap between **simulat
 
 ---
 
-## 🔗 References
+## References
 
 * Robotis OP3/OP2 Official Documentation
 * Unitree Robotics User Manuals

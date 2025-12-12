@@ -2,7 +2,7 @@
 
 ## Real-Time 3D Mapping
 
-## 📝 Introduction
+## Introduction
 
 **NVBlox** is a high-performance **real-time 3D mapping library** developed by NVIDIA for modern robotics systems. It enables robots to build and update **dense, 3D representations of their environment** in real time using GPU acceleration.
 
@@ -10,7 +10,7 @@ NVBlox is designed for robots that must **perceive, navigate, and interact** wit
 
 ---
 
-## 🧠 What is Real-Time 3D Mapping?
+## What is Real-Time 3D Mapping?
 
 Real-time 3D mapping allows a robot to:
 
@@ -22,7 +22,7 @@ Unlike traditional 2D maps, 3D maps capture **walls, objects, terrain, and free 
 
 ---
 
-## 🚀 Why NVBlox is Important
+## Why NVBlox is Important
 
 ### 1. GPU-Accelerated Mapping
 
@@ -61,7 +61,7 @@ By combining sensor inputs, NVBlox produces **robust and accurate maps** even in
 
 ---
 
-## 🌐 Role in Autonomous Navigation
+## Role in Autonomous Navigation
 
 With NVBlox, robots can:
 
@@ -74,7 +74,7 @@ This makes NVBlox especially valuable for **indoor robotics and humanoid navigat
 
 ---
 
-## 🔁 Integration in the NVIDIA Robotics Stack
+## Integration in the NVIDIA Robotics Stack
 
 NVBlox works closely with:
 
@@ -86,7 +86,7 @@ This creates a seamless pipeline from **simulation to real-world deployment**.
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Real-time dense 3D mapping
 * GPU-accelerated performance
@@ -96,7 +96,7 @@ This creates a seamless pipeline from **simulation to real-world deployment**.
 
 ---
 
-## ⚠️ Considerations
+## Considerations
 
 * Requires GPU-enabled systems
 * Dense mapping can be memory intensive
@@ -104,7 +104,7 @@ This creates a seamless pipeline from **simulation to real-world deployment**.
 
 ---
 
-## 🎓 Applications
+## Applications
 
 * Humanoid robot navigation
 * Mobile robots in warehouses
@@ -114,13 +114,13 @@ This creates a seamless pipeline from **simulation to real-world deployment**.
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 **NVBlox enables robots to truly understand their 3D world in real time**. By combining dense mapping with GPU acceleration, it forms a critical component of modern AI-driven robotic navigation systems.
 
 ---
 
-## 🔗 References
+## References
 
 * NVIDIA NVBlox Documentation
 * Isaac ROS Mapping Stack

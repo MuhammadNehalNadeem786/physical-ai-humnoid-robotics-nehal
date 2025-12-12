@@ -4,7 +4,7 @@
 
 ---
 
-## 📝 Concept Overview
+## Concept Overview
 
 A **humanoid robot** is complex, consisting of multiple links and joints that replicate the human body. A **Full Humanoid URDF** serves as the complete blueprint of the robot, defining:
 
@@ -16,7 +16,7 @@ The project emphasizes the **use of Xacro** to make the URDF modular, readable, 
 
 ---
 
-## 🔑 Key Components
+## Key Components
 
 ### Root Link
 - Serves as the **anchor point** for the robot.
@@ -38,7 +38,7 @@ The project emphasizes the **use of Xacro** to make the URDF modular, readable, 
 
 ---
 
-## 🏷️ URDF and Xacro Considerations
+## URDF and Xacro Considerations
 
 Creating a humanoid URDF requires attention to:
 
@@ -58,7 +58,7 @@ Creating a humanoid URDF requires attention to:
 
 ---
 
-## 🚀 Learning Objectives
+## Learning Objectives
 
 By completing this project, you will:
 
@@ -70,7 +70,7 @@ By completing this project, you will:
 
 ---
 
-## ⚡ Real-World Analogy
+## Real-World Analogy
 
 - The **Full Humanoid URDF** is like a blueprint for an architect, defining the structure, joints, and materials of a building.
 - Just as a building plan ensures stability and functionality, the URDF ensures the humanoid robot behaves correctly in simulation and real-world tasks.

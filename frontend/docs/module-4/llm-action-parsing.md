@@ -1,6 +1,6 @@
 # Natural Language → Actions
 
-## 📝 Introduction
+## Introduction
 
 **Natural Language → Actions** refers to the ability of robots to **interpret human language commands and translate them into executable actions**. This is a key component of the **Vision-Language-Action (VLA)** framework, enabling intuitive human-robot interaction.
 
@@ -8,7 +8,7 @@ Robots equipped with this capability can perform tasks in response to **spoken o
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Natural Language Processing (NLP)
 
@@ -36,7 +36,7 @@ Robots equipped with this capability can perform tasks in response to **spoken o
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Input Capture:** Receive spoken or written command
 2. **Transcription (if speech):** Convert audio to text using models like Whisper
@@ -48,7 +48,7 @@ Robots equipped with this capability can perform tasks in response to **spoken o
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Humanoid robots responding to verbal or textual instructions
 * Industrial robots performing tasks based on operator input
@@ -57,7 +57,7 @@ Robots equipped with this capability can perform tasks in response to **spoken o
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Intuitive interaction for humans
 * Reduces need for programming robots manually
@@ -66,7 +66,7 @@ Robots equipped with this capability can perform tasks in response to **spoken o
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Understanding ambiguous or incomplete commands
 * Mapping high-level language to low-level actions
@@ -75,7 +75,7 @@ Robots equipped with this capability can perform tasks in response to **spoken o
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Understanding **language-to-action mapping in robotics**
 * Designing AI pipelines for VLA frameworks
@@ -84,7 +84,7 @@ Robots equipped with this capability can perform tasks in response to **spoken o
 
 ---
 
-## 🔗 References
+## References
 
 * Natural Language Processing for Robotics Research
 * Vision-Language-Action (VLA) Papers

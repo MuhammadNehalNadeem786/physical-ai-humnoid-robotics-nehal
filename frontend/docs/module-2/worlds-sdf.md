@@ -1,12 +1,12 @@
 # Worlds & SDF
 
-## 📝 Introduction
+## Introduction
 
 In Gazebo, a **World** defines the **entire simulation environment**, including terrain, lighting, physics properties, robots, and sensors. The **SDF (Simulation Description Format)** is an XML-based format used to **describe worlds, robots, and objects** in Gazebo. Understanding SDF is crucial for building **custom environments and integrating robots** in simulations.
 
 ---
 
-## ⚙️ Key Concepts
+## Key Concepts
 
 ### 1. World
 
@@ -36,7 +36,7 @@ In Gazebo, a **World** defines the **entire simulation environment**, including 
 
 ---
 
-## 🔹 Basic SDF World Structure
+## Basic SDF World Structure
 
 ```xml
 <sdf version="1.6">
@@ -75,7 +75,7 @@ In Gazebo, a **World** defines the **entire simulation environment**, including 
 
 ---
 
-## 🔹 SDF Model Example
+## SDF Model Example
 
 ```xml
 <model name="simple_box">
@@ -112,7 +112,7 @@ In Gazebo, a **World** defines the **entire simulation environment**, including 
 
 ---
 
-## 🔹 Advantages of Using SDF
+## Advantages of Using SDF
 
 * Platform-independent and XML-based
 * Highly **customizable environments**
@@ -122,7 +122,7 @@ In Gazebo, a **World** defines the **entire simulation environment**, including 
 
 ---
 
-## 🔹 Tips for Worlds & SDF
+## Tips for Worlds & SDF
 
 * Use `<include>` to reuse models.
 * Always define `<pose>` for accurate placement.
@@ -131,7 +131,7 @@ In Gazebo, a **World** defines the **entire simulation environment**, including 
 
 ---
 
-## 🔗 References
+## References
 
 1. [Gazebo SDF Documentation](http://sdformat.org/)
 2. [Gazebo Worlds and Models](https://gazebosim.org/tutorials?tut=ros_overview)

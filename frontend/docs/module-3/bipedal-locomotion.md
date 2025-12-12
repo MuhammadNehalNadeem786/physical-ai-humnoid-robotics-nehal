@@ -1,6 +1,6 @@
 # Bipedal Locomotion
 
-## 📝 Introduction
+## Introduction
 
 **Bipedal locomotion** is the ability of a robot or humanoid to **walk on two legs**, mimicking human walking patterns. It is a complex task involving **balance, stability, gait planning, and real-time feedback control**. Bipedal robots provide the advantage of navigating environments designed for humans, including stairs, uneven terrain, and tight spaces.
 
@@ -8,7 +8,7 @@ This section explores the **theory, challenges, and key components** of bipedal 
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Gait Types
 
@@ -43,7 +43,7 @@ This section explores the **theory, challenges, and key components** of bipedal 
 
 ---
 
-## 🚀 Challenges in Bipedal Locomotion
+## Challenges in Bipedal Locomotion
 
 * Maintaining balance on uneven or dynamic surfaces
 * Avoiding falls during perturbations
@@ -53,7 +53,7 @@ This section explores the **theory, challenges, and key components** of bipedal 
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * **Humanoid service robots:** Navigate homes, offices, and public spaces
 * **Search and rescue robots:** Traverse rubble or disaster areas
@@ -62,13 +62,13 @@ This section explores the **theory, challenges, and key components** of bipedal 
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 **Bipedal locomotion is a fundamental capability for humanoid robots**, enabling them to operate in human-centric environments. Successful locomotion requires the integration of **gait planning, balance control, sensor feedback, and trajectory execution**, often in conjunction with AI-driven decision-making and navigation systems.
 
 ---
 
-## 🔗 References
+## References
 
 * Humanoid Robotics Locomotion Textbooks
 * Research on ZMP and Dynamic Walking

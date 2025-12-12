@@ -1,6 +1,6 @@
 # Project 4.2: Offline VLA Robot (Zero Internet)
 
-## 📝 Introduction
+## Introduction
 
 **Project 4.2** focuses on building a **Vision-Language-Action (VLA) humanoid robot that operates completely offline**, without requiring internet connectivity. This is essential for **secure, private, or remote environments** where cloud-based AI services are not feasible.
 
@@ -8,7 +8,7 @@ The project demonstrates how **local AI models, speech recognition, language und
 
 ---
 
-## 🌐 Objectives
+## Objectives
 
 * Implement offline speech recognition and language understanding
 * Deploy pre-trained or fine-tuned foundation models locally
@@ -18,7 +18,7 @@ The project demonstrates how **local AI models, speech recognition, language und
 
 ---
 
-## 🧠 Core Components
+## Core Components
 
 ### 1. Offline Speech Recognition
 
@@ -52,7 +52,7 @@ The project demonstrates how **local AI models, speech recognition, language und
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Audio Capture:** Robot records speech input
 2. **Offline Transcription:** Local ASR converts speech to text
@@ -65,7 +65,7 @@ The project demonstrates how **local AI models, speech recognition, language und
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Robots in **secure or private facilities** with no internet access
 * Remote humanoid assistants in **field operations or disaster zones**
@@ -74,7 +74,7 @@ The project demonstrates how **local AI models, speech recognition, language und
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Full autonomy without relying on cloud services
 * Secure and private operation for sensitive environments
@@ -83,7 +83,7 @@ The project demonstrates how **local AI models, speech recognition, language und
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Local computation and memory requirements for AI models
 * Ensuring real-time performance without internet offloading
@@ -92,7 +92,7 @@ The project demonstrates how **local AI models, speech recognition, language und
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Implement VLA pipelines entirely offline
 * Integrate speech recognition, NLP, and action planning locally
@@ -101,7 +101,7 @@ The project demonstrates how **local AI models, speech recognition, language und
 
 ---
 
-## 🔗 References
+## References
 
 * Whisper and Local ASR Deployment Guides
 * ROS 2 Offline Integration Tutorials

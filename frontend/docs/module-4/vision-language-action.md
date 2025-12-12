@@ -1,6 +1,6 @@
 # Vision-Language-Action (VLA)
 
-## 📝 Introduction
+## Introduction
 
 **Vision-Language-Action (VLA)** is an advanced framework in robotics where robots **perceive visual input, understand language commands, and execute corresponding actions**. This module explores the integration of **computer vision, natural language understanding, and robotics control** to enable highly intelligent and interactive robotic systems.
 
@@ -8,7 +8,7 @@ VLA is at the forefront of **AI-driven robotics**, enabling humanoids and other 
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Vision
 
@@ -30,7 +30,7 @@ VLA is at the forefront of **AI-driven robotics**, enabling humanoids and other 
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Perception:** Capture environment through cameras and sensors
 2. **Language Understanding:** Interpret user commands
@@ -40,7 +40,7 @@ VLA is at the forefront of **AI-driven robotics**, enabling humanoids and other 
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * **Humanoid assistants:** Follow verbal instructions to interact with humans
 * **Industrial robots:** Understand task descriptions and manipulate objects accordingly
@@ -49,7 +49,7 @@ VLA is at the forefront of **AI-driven robotics**, enabling humanoids and other 
 
 ---
 
-## ✅ Advantages of VLA
+## Advantages of VLA
 
 * Intuitive human-robot interaction via natural language
 * Multi-modal perception enhances understanding of complex environments
@@ -58,7 +58,7 @@ VLA is at the forefront of **AI-driven robotics**, enabling humanoids and other 
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Mapping language to action in real-world environments
 * Handling ambiguous or incomplete instructions
@@ -67,7 +67,7 @@ VLA is at the forefront of **AI-driven robotics**, enabling humanoids and other 
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Understanding **multi-modal AI integration** for robotics
 * Applying **vision-language models** to robotic tasks
@@ -76,7 +76,7 @@ VLA is at the forefront of **AI-driven robotics**, enabling humanoids and other 
 
 ---
 
-## 🔗 References
+## References
 
 * Vision-Language Models for Robotics Research
 * Language-Conditioned Robot Learning Papers

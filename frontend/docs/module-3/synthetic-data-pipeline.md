@@ -1,6 +1,6 @@
 # Synthetic Data Generation
 
-## 📝 Introduction
+## Introduction
 
 **Synthetic Data Generation** is a powerful technique used in modern robotics and AI to create **artificial but highly realistic training data** using simulation environments. Instead of collecting and labeling real-world data, robots can be trained on **virtually unlimited data** generated in simulation.
 
@@ -8,7 +8,7 @@ In robotics platforms like **NVIDIA Isaac Sim**, synthetic data generation enabl
 
 ---
 
-## 🌐 What is Synthetic Data?
+## What is Synthetic Data?
 
 Synthetic data is **computer-generated data** that mimics real-world sensor outputs, such as:
 
@@ -22,7 +22,7 @@ This data behaves like real sensor data but is produced entirely in a **virtual 
 
 ---
 
-## 🚀 Why "Infinite" Training Data?
+## Why "Infinite" Training Data?
 
 Simulation allows developers to:
 
@@ -34,7 +34,7 @@ Since these conditions can be endlessly varied, synthetic data is often referred
 
 ---
 
-## 🧠 Importance in AI & Robotics
+## Importance in AI & Robotics
 
 ### 1. Eliminates Manual Data Collection
 
@@ -54,7 +54,7 @@ Examples include collisions, failures, or edge cases.
 
 ---
 
-## 🎯 Types of Synthetic Labels
+## Types of Synthetic Labels
 
 Synthetic data can automatically provide:
 
@@ -68,7 +68,7 @@ All labels are **perfectly accurate**, since the simulator knows the full scene.
 
 ---
 
-## 🔁 Domain Randomization
+## Domain Randomization
 
 To improve real-world performance, synthetic data generation often uses **domain randomization**, which involves:
 
@@ -81,7 +81,7 @@ This forces AI models to **generalize better** when deployed in real environment
 
 ---
 
-## 🤖 Applications in Robotics
+## Applications in Robotics
 
 * Robot vision and perception
 * Object detection and manipulation
@@ -91,7 +91,7 @@ This forces AI models to **generalize better** when deployed in real environment
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Unlimited data generation
 * Faster AI training cycles
@@ -101,7 +101,7 @@ This forces AI models to **generalize better** when deployed in real environment
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Synthetic data must be realistic enough
 * Poor realism can affect sim-to-real transfer
@@ -111,13 +111,13 @@ These challenges are addressed through **high-fidelity simulation** like NVIDIA 
 
 ---
 
-## 🎓 Role in Future Robotics
+## Role in Future Robotics
 
 Synthetic data generation is becoming a **core foundation of AI-driven robotics**, enabling rapid development of intelligent robots that can safely and efficiently learn before entering the real world.
 
 ---
 
-## 🔗 References
+## References
 
 * NVIDIA Synthetic Data Generation Documentation
 * Isaac Sim Replicator Overview

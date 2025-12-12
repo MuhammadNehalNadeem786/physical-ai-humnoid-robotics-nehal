@@ -1,12 +1,12 @@
 # Gazebo Harmonic Setup on Ubuntu 22.04
 
-## 📝 Introduction
+## Introduction
 
 Harmonic drives are **high-precision actuators** used in robotics for smooth, backlash-free motion. Simulating them in **Gazebo** allows developers to **test robot kinematics, controllers, and sensors** before deploying physical hardware. This guide provides a **step-by-step setup for Ubuntu 22.04**, integrating **Gazebo**, **ROS 2 Humble**, and harmonic drive configurations.
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 * **Ubuntu 22.04 LTS**
 * **ROS 2 Humble** ([Installation guide](https://docs.ros.org/en/humble/Installation.html))
@@ -20,7 +20,7 @@ Harmonic drives are **high-precision actuators** used in robotics for smooth, ba
 
 ---
 
-## 🔹 Step 1: Create ROS 2 Workspace
+## Step 1: Create ROS 2 Workspace
 
 ```bash
 mkdir -p ~/harmonic_ws/src
@@ -31,7 +31,7 @@ source install/setup.bash
 
 ---
 
-## 🔹 Step 2: Create Robot URDF/Xacro
+## Step 2: Create Robot URDF/Xacro
 
 Define **robot links, joints, and harmonic drive transmissions**.
 
@@ -55,7 +55,7 @@ Define **robot links, joints, and harmonic drive transmissions**.
 
 ---
 
-## 🔹 Step 3: Add Gazebo Plugins
+## Step 3: Add Gazebo Plugins
 
 ```xml
 <gazebo>
@@ -65,7 +65,7 @@ Define **robot links, joints, and harmonic drive transmissions**.
 
 ---
 
-## 🔹 Step 4: Configure ROS 2 Controllers
+## Step 4: Configure ROS 2 Controllers
 
 Create `robot_controllers.yaml`:
 
@@ -78,7 +78,7 @@ shoulder_joint:
 
 ---
 
-## 🔹 Step 5: Launch Gazebo Simulation
+## Step 5: Launch Gazebo Simulation
 
 Create `gazebo_launch.py`:
 
@@ -111,7 +111,7 @@ ros2 launch your_robot_pkg gazebo_launch.py
 
 ---
 
-## 🔹 Step 6: Test Harmonic Drive Motion
+## Step 6: Test Harmonic Drive Motion
 
 ```bash
 ros2 topic pub /shoulder_joint/command std_msgs/msg/Float64 "data: 1.0"
@@ -122,7 +122,7 @@ ros2 topic pub /shoulder_joint/command std_msgs/msg/Float64 "data: 1.0"
 
 ---
 
-## 🌟 Advantages
+## Advantages
 
 * Realistic harmonic drive simulation.
 * Early **controller and kinematics testing**.
@@ -131,7 +131,7 @@ ros2 topic pub /shoulder_joint/command std_msgs/msg/Float64 "data: 1.0"
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * PID tuning is critical for smooth motion.
 * Multi-joint robots may require high computational resources.
@@ -139,7 +139,7 @@ ros2 topic pub /shoulder_joint/command std_msgs/msg/Float64 "data: 1.0"
 
 ---
 
-## 🔗 References
+## References
 
 1. [ros2_control Documentation](https://ros-controls.github.io/ros2_control)
 2. [Gazebo ROS Integration](https://gazebosim.org/tutorials)

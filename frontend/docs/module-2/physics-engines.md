@@ -1,12 +1,12 @@
 # Physics Engines
 
-## 📝 Introduction
+## Introduction
 
 Physics engines in Gazebo simulate **realistic dynamics** of robots and objects, including motion, collisions, friction, and forces. They are crucial for **accurate simulation of robot behavior** and testing control algorithms before deploying to the real world.
 
 ---
 
-## ⚙️ Key Physics Engines
+## Key Physics Engines
 
 Gazebo supports several physics engines, each with its own strengths:
 
@@ -34,7 +34,7 @@ Gazebo supports several physics engines, each with its own strengths:
 
 ---
 
-## 🔹 Setting a Physics Engine in SDF
+## Setting a Physics Engine in SDF
 
 You can specify a physics engine in your world SDF file:
 
@@ -56,7 +56,7 @@ You can specify a physics engine in your world SDF file:
 
 ---
 
-## 🔹 Advantages of Using Physics Engines
+## Advantages of Using Physics Engines
 
 * Simulates **realistic robot dynamics**.
 * Allows **safe testing** of algorithms before physical deployment.
@@ -66,7 +66,7 @@ You can specify a physics engine in your world SDF file:
 
 ---
 
-## 🔹 Tips
+## Tips
 
 * Choose the engine based on your **robot complexity and contact requirements**.
 * Tweak `max_step_size` and `real_time_update_rate` for balance between **accuracy and performance**.
@@ -74,7 +74,7 @@ You can specify a physics engine in your world SDF file:
 
 ---
 
-## 🔗 References
+## References
 
 1. [Gazebo Physics Engines Overview](https://gazebosim.org/tutorials?tut=physics)
 2. [ODE Physics Engine](https://www.ode.org/)

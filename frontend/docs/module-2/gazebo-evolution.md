@@ -1,13 +1,13 @@
 # The Digital Twin (Gazebo & Unity)
 
-## 📝 Introduction
+## Introduction
 A **Digital Twin** is a **virtual replica of a physical system** that mirrors its real-world behavior and properties. When integrated with **Gazebo** and **Unity**, digital twins allow engineers and developers to **simulate, visualize, and test robots, machines, or environments** in a virtual space before deploying them physically.  
 
 This approach enables **safer testing, faster prototyping, and optimization** of complex systems in robotics, manufacturing, and automation.
 
 ---
 
-## 🔹 Gazebo as a Digital Twin Platform
+## Gazebo as a Digital Twin Platform
 
 **Gazebo** is a widely-used open-source robotics simulator that provides:
 
@@ -25,7 +25,7 @@ Simulate a humanoid robot walking on uneven terrain and measure joint stresses i
 
 ---
 
-## 🔹 Unity as a Digital Twin Platform
+## Unity as a Digital Twin Platform
 
 **Unity** is a powerful 3D engine widely used for gaming, visualization, and simulations. In the context of digital twins:
 
@@ -43,7 +43,7 @@ Visualize a factory floor with multiple robots, enabling operators to interact i
 
 ---
 
-## ⚙️ Combining Gazebo & Unity
+## Combining Gazebo & Unity
 
 - **Gazebo:** Best for **physics-accurate robot simulation** and algorithm testing.  
 - **Unity:** Best for **high-quality visualization and interactive experiences**.  
@@ -61,7 +61,7 @@ Visualize a factory floor with multiple robots, enabling operators to interact i
 
 ---
 
-## 🏭 Applications of Gazebo & Unity Digital Twins
+## Applications of Gazebo & Unity Digital Twins
 
 - **Robotics Development**
   - Test control algorithms in Gazebo, visualize in Unity before real-world deployment.
@@ -74,7 +74,7 @@ Visualize a factory floor with multiple robots, enabling operators to interact i
 
 ---
 
-## 🌟 Advantages
+## Advantages
 
 - Reduced hardware risks and costs during testing.
 - Realistic simulation of complex systems and environments.
@@ -84,7 +84,7 @@ Visualize a factory floor with multiple robots, enabling operators to interact i
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 - Integration between **Gazebo and Unity** can be complex.
 - Real-time synchronization may require high-bandwidth networks.
@@ -93,7 +93,7 @@ Visualize a factory floor with multiple robots, enabling operators to interact i
 
 ---
 
-## 🔗 Future Trends
+## Future Trends
 
 - **VR/AR Integration:** Enhanced operator immersion and training.
 - **AI-Powered Digital Twins:** Use machine learning for predictive analytics and optimization.
@@ -102,7 +102,7 @@ Visualize a factory floor with multiple robots, enabling operators to interact i
 
 ---
 
-## 📚 References
+## References
 
 1. Koenig, N., & Howard, A. (2004). *Design and use paradigms for Gazebo, an open-source multi-robot simulator.*
 2. Unity Technologies. (2023). *Digital Twin solutions for industry and robotics.*

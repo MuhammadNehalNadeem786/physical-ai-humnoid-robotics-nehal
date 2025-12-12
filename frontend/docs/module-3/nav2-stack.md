@@ -1,6 +1,6 @@
 # Nav2 for Bipedal Robots
 
-## 📝 Introduction
+## Introduction
 
 **Nav2** is the next-generation navigation framework for **ROS 2**, designed to provide **autonomous navigation capabilities** for robots. While originally developed for wheeled robots, Nav2 can also be adapted for **bipedal humanoid robots**, enabling them to navigate complex environments safely and efficiently.
 
@@ -8,7 +8,7 @@ This section explores how Nav2 integrates with **sensor data, AI perception, and
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Path Planning
 
@@ -36,7 +36,7 @@ This section explores how Nav2 integrates with **sensor data, AI perception, and
 
 ---
 
-## 🚀 Adapting Nav2 for Bipedal Robots
+## Adapting Nav2 for Bipedal Robots
 
 ### Step 1: Map Integration
 
@@ -65,7 +65,7 @@ This section explores how Nav2 integrates with **sensor data, AI perception, and
 
 ---
 
-## 🌐 Advantages for Bipedal Robots
+## Advantages for Bipedal Robots
 
 * Leverages ROS 2 ecosystem and standard navigation tools
 * Combines **AI perception and control pipelines** for complex environments
@@ -74,7 +74,7 @@ This section explores how Nav2 integrates with **sensor data, AI perception, and
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Bipedal locomotion introduces **stability constraints** not present in wheeled robots
 * Accurate **sensor calibration** is critical
@@ -82,7 +82,7 @@ This section explores how Nav2 integrates with **sensor data, AI perception, and
 
 ---
 
-## 🎯 Applications
+## Applications
 
 * Humanoid service robots in indoor environments
 * Warehouse logistics robots navigating cluttered spaces
@@ -91,7 +91,7 @@ This section explores how Nav2 integrates with **sensor data, AI perception, and
 
 ---
 
-## 🔗 References
+## References
 
 * ROS 2 Nav2 Documentation
 * Humanoid Locomotion and Footstep Planning Research

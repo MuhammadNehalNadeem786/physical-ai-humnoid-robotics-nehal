@@ -1,6 +1,6 @@
 # NVIDIA Isaac Sim
 
-## 📝 Introduction
+## Introduction
 
 **NVIDIA Isaac Sim** is one of the most advanced robot simulators available today, specifically designed for **AI-first robotics development**. Built on **NVIDIA Omniverse**, it combines **high-fidelity physics, photorealistic rendering, and large-scale AI training**, making it a cornerstone for modern robotics research and industry.
 
@@ -8,7 +8,7 @@ Isaac Sim is not just a visual simulator—it is a **full digital twin environme
 
 ---
 
-## 🚀 What Makes Isaac Sim the Most Advanced
+## What Makes Isaac Sim the Most Advanced
 
 ### 1. AI-First Design Philosophy
 
@@ -84,7 +84,7 @@ This enables AI models trained in simulation to **work reliably on physical robo
 
 ---
 
-## 🤖 Supported Robot Types
+## Supported Robot Types
 
 * Humanoid robots
 * Mobile robots
@@ -94,7 +94,7 @@ This enables AI models trained in simulation to **work reliably on physical robo
 
 ---
 
-## 🧠 Role in Modern Robotics
+## Role in Modern Robotics
 
 Isaac Sim acts as:
 
@@ -105,7 +105,7 @@ Isaac Sim acts as:
 
 ---
 
-## ✅ Key Advantages
+## Key Advantages
 
 * Industry-grade realism
 * GPU-accelerated large-scale simulation
@@ -114,13 +114,13 @@ Isaac Sim acts as:
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 **NVIDIA Isaac Sim represents the next generation of robot simulators**, where simulation, artificial intelligence, and real-world deployment converge. Its unmatched realism and AI-centric design make it the **most advanced robot simulation platform** for building intelligent robots.
 
 ---
 
-## 🔗 References
+## References
 
 * NVIDIA Isaac Sim Documentation
 * NVIDIA Omniverse for Robotics

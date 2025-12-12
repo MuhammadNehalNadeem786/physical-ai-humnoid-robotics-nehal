@@ -5,7 +5,7 @@ Designed for **robotics, humanoid systems, and Vision–Language–Action (VLA) 
 
 ---
 
-## 📦 ROS 2 Basics
+## ROS 2 Basics
 
 ### Check ROS Version
 ```bash
@@ -24,7 +24,7 @@ source /opt/ros/humble/setup.bash
 
 ---
 
-## 🧱 Workspace Management
+## Workspace Management
 
 ### Create Workspace
 ```bash
@@ -44,7 +44,7 @@ source install/setup.bash
 
 ---
 
-## 📂 Packages
+## Packages
 
 ### Create Python Package
 ```bash
@@ -63,7 +63,7 @@ ros2 pkg list
 
 ---
 
-## 🔁 Nodes
+## Nodes
 
 ### Run Node
 ```bash
@@ -82,7 +82,7 @@ ros2 node info /node_name
 
 ---
 
-## 📡 Topics
+## Topics
 
 ### List Topics
 ```bash
@@ -106,7 +106,7 @@ ros2 topic pub /topic_name std_msgs/msg/String "{data: 'Hello ROS 2'}"
 
 ---
 
-## 🔄 Services
+## Services
 
 ### List Services
 ```bash
@@ -125,7 +125,7 @@ ros2 service call /service_name <service_type> "{request}"
 
 ---
 
-## 📨 Actions
+## Actions
 
 ### List Actions
 ```bash
@@ -144,7 +144,7 @@ ros2 action send_goal /action_name <action_type> "{goal}"
 
 ---
 
-## 📚 Interfaces (Messages / Services / Actions)
+## Interfaces (Messages / Services / Actions)
 
 ### List Interfaces
 ```bash
@@ -158,7 +158,7 @@ ros2 interface show std_msgs/msg/String
 
 ---
 
-## 🧪 Parameters
+## Parameters
 
 ### List Parameters
 ```bash
@@ -177,7 +177,7 @@ ros2 param set /node_name param_name value
 
 ---
 
-## 🚀 Launch Files
+## Launch Files
 
 ### Run Launch File
 ```bash
@@ -191,7 +191,7 @@ ros2 launch nav2_bringup navigation_launch.py
 
 ---
 
-## 🎥 ros2 bag (Record & Playback)
+## ros2 bag (Record & Playback)
 
 ### Record Topics
 ```bash
@@ -205,7 +205,7 @@ ros2 bag play bag_name
 
 ---
 
-## 🧰 Diagnostic & Visualization Tools
+## Diagnostic & Visualization Tools
 
 | Tool | Description |
 |---|---|
@@ -216,7 +216,7 @@ ros2 bag play bag_name
 
 ---
 
-## 🔧 Environment Variables
+## Environment Variables
 
 ```bash
 export ROS_DOMAIN_ID=0
@@ -225,7 +225,7 @@ export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
 
 ---
 
-## ✅ ROS 2 Best Practices
+## ROS 2 Best Practices
 
 - Always **source setup files** after build
 - Use **launch files** instead of manual runs
@@ -236,7 +236,7 @@ export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
 
 ---
 
-## 🧠 ROS 2 in Humanoid & VLA Systems
+## ROS 2 in Humanoid & VLA Systems
 
 - **Topics:** vision, sensors, force feedback
 - **Services:** configuration and control
@@ -246,14 +246,14 @@ export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
 
 ---
 
-## 📌 Rule of Thumb
+## Rule of Thumb
 > If it streams → **Topic**  
 > If it configures → **Service**  
 > If it moves → **Action**
 
 ---
 
-## 🔗 Recommended Stacks & Tools
+## Recommended Stacks & Tools
 - ROS 2 Navigation (Nav2)
 - MoveIt 2
 - NVIDIA Isaac ROS

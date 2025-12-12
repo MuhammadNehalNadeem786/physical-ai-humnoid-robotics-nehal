@@ -1,6 +1,6 @@
 # Sensor Simulation
 
-## 📝 Introduction
+## Introduction
 
 Gazebo allows the simulation of various **robot sensors**, enabling testing and development of algorithms **without physical hardware**. Simulated sensors provide **realistic data** for perception, navigation, and control in robots.
 
@@ -8,7 +8,7 @@ Key sensors commonly simulated include **LiDAR, RGB-D cameras, and IMUs**.
 
 ---
 
-## 🔹 LiDAR Simulation
+## LiDAR Simulation
 
 * Simulates **laser range finders** used for mapping and obstacle detection.
 * Generates **point clouds** and **distance measurements**.
@@ -39,7 +39,7 @@ Key sensors commonly simulated include **LiDAR, RGB-D cameras, and IMUs**.
 
 ---
 
-## 🔹 RGB-D Camera Simulation
+## RGB-D Camera Simulation
 
 * Simulates **color and depth cameras** for computer vision, mapping, and object detection.
 * Provides **image and depth streams**.
@@ -66,7 +66,7 @@ Key sensors commonly simulated include **LiDAR, RGB-D cameras, and IMUs**.
 
 ---
 
-## 🔹 IMU Simulation
+## IMU Simulation
 
 * Simulates **Inertial Measurement Units** for orientation, acceleration, and angular velocity.
 * Useful for **state estimation, navigation, and control**.
@@ -82,7 +82,7 @@ Key sensors commonly simulated include **LiDAR, RGB-D cameras, and IMUs**.
 
 ---
 
-## 🔹 Advantages of Sensor Simulation
+## Advantages of Sensor Simulation
 
 * Enables **algorithm testing without hardware**.
 * Provides **realistic sensor data** for navigation, perception, and control.
@@ -91,7 +91,7 @@ Key sensors commonly simulated include **LiDAR, RGB-D cameras, and IMUs**.
 
 ---
 
-## 🔹 Tips
+## Tips
 
 * Tune **update rates** for sensor realism and computational performance.
 * Combine multiple sensors for **multi-modal perception**.
@@ -100,7 +100,7 @@ Key sensors commonly simulated include **LiDAR, RGB-D cameras, and IMUs**.
 
 ---
 
-## 🔗 References
+## References
 
 1. [Gazebo Sensors Tutorial](https://gazebosim.org/tutorials?tut=ros_sensors)
 2. [LiDAR Simulation in Gazebo](https://gazebosim.org/tutorials?tut=ros_lidar)

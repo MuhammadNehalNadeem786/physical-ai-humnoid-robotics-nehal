@@ -1,6 +1,6 @@
 # Foundation Model Detection
 
-## 🧩 Introduction
+## Introduction
 
 **Foundation Model Detection** refers to the use of large pre-trained AI models in robotics to **detect and recognize objects, humans, and other entities** in the environment. These models, often trained on massive datasets, provide **generalizable perception capabilities** that can be deployed across different robot platforms without task-specific training from scratch.
 
@@ -8,7 +8,7 @@ In robotics, foundation models accelerate development by providing **robust, ver
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Foundation Models
 
@@ -34,7 +34,7 @@ In robotics, foundation models accelerate development by providing **robust, ver
 
 ---
 
-## 🚀 Advantages of Foundation Model Detection
+## Advantages of Foundation Model Detection
 
 * Generalizes to unseen environments
 * Reduces need for extensive robot-specific training data
@@ -43,7 +43,7 @@ In robotics, foundation models accelerate development by providing **robust, ver
 
 ---
 
-## 🌐 Applications in Robotics
+## Applications in Robotics
 
 * **Humanoid interaction:** Detect humans, gestures, and facial expressions
 * **Autonomous navigation:** Recognize obstacles, doors, and pathways
@@ -52,7 +52,7 @@ In robotics, foundation models accelerate development by providing **robust, ver
 
 ---
 
-## 🔁 Role in the AI-Robot Brain
+## Role in the AI-Robot Brain
 
 Foundation model detection acts as a **high-level perception module**, feeding reliable and versatile information to:
 
@@ -64,7 +64,7 @@ It forms a **bridge between raw sensor data and intelligent robot action**.
 
 ---
 
-## ✅ Advantages in Practice
+## Advantages in Practice
 
 * Accelerates development cycles
 * Provides state-of-the-art perception without heavy data collection
@@ -73,7 +73,7 @@ It forms a **bridge between raw sensor data and intelligent robot action**.
 
 ---
 
-## ⚠️ Considerations
+## Considerations
 
 * High computational requirements, ideally GPU or AI accelerator
 * May require fine-tuning for robotics-specific edge cases
@@ -81,13 +81,13 @@ It forms a **bridge between raw sensor data and intelligent robot action**.
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 **Foundation Model Detection empowers robots with general-purpose, high-performance perception**. It enables humanoids and other autonomous systems to understand and interact with their environment more intelligently and reliably than traditional handcrafted perception pipelines.
 
 ---
 
-## 🔗 References
+## References
 
 * Foundation Models in Robotics Research
 * NVIDIA Isaac ROS Perception Gems

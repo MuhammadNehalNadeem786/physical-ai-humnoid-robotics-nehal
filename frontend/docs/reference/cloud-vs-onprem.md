@@ -1,13 +1,13 @@
 # Cloud vs On-Premise in Humanoid Robotics (VLA Systems)
 
-## 📝 Introduction
+## Introduction
 When deploying **AI-driven humanoid robotics systems**, choosing between **cloud-based** and **on-premise** infrastructure is a critical architectural decision. This choice directly impacts **latency, security, computation power, scalability, reliability, and cost**.
 
 For **Vision–Language–Action (VLA)** pipelines—where perception, reasoning, and control must work seamlessly—understanding these trade-offs is essential for optimal system design.
 
 ---
 
-## 🌐 Cloud-Based Robotics
+## Cloud-Based Robotics
 
 ### 1. Key Features
 - AI computation performed on **remote cloud servers**
@@ -50,7 +50,7 @@ For **Vision–Language–Action (VLA)** pipelines—where perception, reasoning
 
 ---
 
-## ⚖️ Feature Comparison
+## Feature Comparison
 
 | Feature        | Cloud-Based        | On-Premise       |
 |---------------|-------------------|------------------|
@@ -63,7 +63,7 @@ For **Vision–Language–Action (VLA)** pipelines—where perception, reasoning
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 After studying this comparison, you should be able to:
 - Evaluate **cloud vs on-premise** trade-offs for robotics
 - Choose infrastructure based on **latency, security, and scale**
@@ -72,7 +72,7 @@ After studying this comparison, you should be able to:
 
 ---
 
-## 🔗 Suggested References
+## Suggested References
 - Cloud Robotics Research Papers  
 - Edge Computing & On-Prem AI Deployment Guides  
 - ROS 2 Multi-Robot and Cloud Integration Tutorials  
@@ -80,7 +80,7 @@ After studying this comparison, you should be able to:
 
 ---
 
-## ✅ Practical Insight
+## Practical Insight
 **Best practice in modern humanoid robotics** often follows a **hybrid approach**:
 - **On-premise / Edge:** perception, control, safety-critical logic  
 - **Cloud:** model training, large-scale reasoning, analytics, updates  

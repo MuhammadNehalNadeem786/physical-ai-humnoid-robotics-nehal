@@ -1,6 +1,6 @@
 # Action Tokenization
 
-## 📝 Introduction
+## Introduction
 
 **Action Tokenization** refers to the process of converting **high-level robot commands or intentions into discrete, interpretable tokens** that can be processed by AI models and robotic control systems. This is a crucial step in **Vision-Language-Action (VLA)** pipelines, enabling robots to map natural language or vision-based instructions into executable sequences.
 
@@ -8,7 +8,7 @@ By tokenizing actions, robots can plan, reason, and execute tasks in a **structu
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 ### 1. Definition of Action Tokens
 
@@ -36,7 +36,7 @@ By tokenizing actions, robots can plan, reason, and execute tasks in a **structu
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Instruction Parsing:** Convert natural language or perception input into structured commands
 2. **Token Mapping:** Map parsed commands to predefined action tokens
@@ -46,7 +46,7 @@ By tokenizing actions, robots can plan, reason, and execute tasks in a **structu
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Multi-step task execution in humanoid robots
 * Real-time response to verbal or textual instructions
@@ -55,7 +55,7 @@ By tokenizing actions, robots can plan, reason, and execute tasks in a **structu
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Standardizes robot commands for AI reasoning and control
 * Facilitates debugging and simulation of robot behaviors
@@ -64,7 +64,7 @@ By tokenizing actions, robots can plan, reason, and execute tasks in a **structu
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Designing comprehensive token sets for diverse tasks
 * Handling ambiguous or multi-intent instructions
@@ -73,7 +73,7 @@ By tokenizing actions, robots can plan, reason, and execute tasks in a **structu
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Understanding **action tokenization in VLA robotics**
 * Designing and mapping action tokens from natural language or perception
@@ -82,7 +82,7 @@ By tokenizing actions, robots can plan, reason, and execute tasks in a **structu
 
 ---
 
-## 🔗 References
+## References
 
 * Vision-Language-Action Robotics Papers
 * Robotics Action Abstraction and Tokenization Research

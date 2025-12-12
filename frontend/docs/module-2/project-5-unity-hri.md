@@ -1,6 +1,6 @@
 # Project 2.2: Digital Human Interaction
 
-## 📝 Introduction
+## Introduction
 
 Project 2.2 focuses on **Digital Human Interaction (DHI)**, exploring how **humanoid robots or avatars interact with humans** in simulated or virtual environments. This project integrates **robot modeling, perception, communication, and AI decision-making** to enable meaningful and safe interactions.
 
@@ -12,7 +12,7 @@ Digital Human Interaction emphasizes:
 
 ---
 
-## ⚙️ Key Components of DHI
+## Key Components of DHI
 
 ### 1. Human Perception
 
@@ -45,7 +45,7 @@ Digital Human Interaction emphasizes:
 
 ---
 
-## 🔹 Steps for Implementing DHI
+## Steps for Implementing DHI
 
 1. **Define interaction scenario** (greeting, collaborative task, guidance).
 2. **Model humanoid robot and digital human** in URDF or Unity.
@@ -60,7 +60,7 @@ Digital Human Interaction emphasizes:
 
 ---
 
-## 🔹 Advantages
+## Advantages
 
 * Safe testing of human-robot interactions in virtual environments.
 * Improves robot **social intelligence and responsiveness**.
@@ -69,7 +69,7 @@ Digital Human Interaction emphasizes:
 
 ---
 
-## 🔹 Best Practices
+## Best Practices
 
 * Use **realistic avatars and environments** for accurate interaction testing.
 * Implement **feedback loops** to adapt robot behavior dynamically.
@@ -79,7 +79,7 @@ Digital Human Interaction emphasizes:
 
 ---
 
-## 🔗 References
+## References
 
 1. [Human-Robot Interaction Overview](https://humanrobotinteraction.org/)
 2. [Digital Humans and Avatars in Robotics](https://www.sciencedirect.com/science/article/pii/S1877050920307892)

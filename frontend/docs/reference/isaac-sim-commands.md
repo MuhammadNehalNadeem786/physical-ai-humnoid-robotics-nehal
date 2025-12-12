@@ -5,7 +5,7 @@ Designed for **robotics simulation, humanoid robots, and Vision–Language–Act
 
 ---
 
-## 📌 What is NVIDIA Isaac Sim?
+## What is NVIDIA Isaac Sim?
 
 **NVIDIA Isaac Sim** is a high-fidelity robotics simulator built on **NVIDIA Omniverse**.  
 It is widely used for:
@@ -18,7 +18,7 @@ It is widely used for:
 
 ---
 
-## ✅ System Requirements
+## System Requirements
 
 - Ubuntu 20.04 / 22.04  
 - NVIDIA GPU (RTX / A-series recommended)  
@@ -28,7 +28,7 @@ It is widely used for:
 
 ---
 
-## 📦 Installation Notes (Quick)
+## Installation Notes (Quick)
 
 - Install via **NVIDIA Omniverse Launcher**
 - Default install path:
@@ -38,7 +38,7 @@ It is widely used for:
 
 ---
 
-## 🚀 Launch Commands
+## Launch Commands
 
 ### Launch Isaac Sim (GUI)
 ```bash
@@ -63,7 +63,7 @@ export ROS_DOMAIN_ID=0
 
 ---
 
-## 🧑‍💻 Python & Scripting
+## Python & Scripting
 
 ### Run Python Script
 ```bash
@@ -82,7 +82,7 @@ standalone_examples/
 
 ---
 
-## 🤖 ROS 2 Integration
+## ROS 2 Integration
 
 ### Enable ROS 2 Bridge (GUI)
 ```
@@ -101,7 +101,7 @@ ros2 topic list
 
 ---
 
-## 🧪 Example Commands
+## Example Commands
 
 ### Core Example
 ```bash
@@ -120,7 +120,7 @@ ros2 topic list
 
 ---
 
-## ⏱️ Simulation Control (GUI)
+## ⏱Simulation Control (GUI)
 
 - ▶ **Play** – Start simulation  
 - ⏸ **Pause** – Pause simulation  
@@ -130,7 +130,7 @@ ros2 topic list
 
 ---
 
-## 📂 Assets & USD Stages
+## Assets & USD Stages
 
 ### Default Assets Location
 ```text
@@ -149,7 +149,7 @@ File → Save As
 
 ---
 
-## 🧠 Physics & Rendering
+## Physics & Rendering
 
 ### Enable Physics Debug
 ```
@@ -168,7 +168,7 @@ World Settings → Physics → Time Steps Per Second
 
 ---
 
-## 📊 Debugging & Logging
+## Debugging & Logging
 
 ### Verbose Logs
 ```bash
@@ -182,7 +182,7 @@ Window → Extensions → Console
 
 ---
 
-## ⚙️ Performance Tuning
+## Performance Tuning
 
 ### Select GPU
 ```bash
@@ -201,7 +201,7 @@ Viewport → Disable RTX Effects
 
 ---
 
-## ✅ Best Practices
+## Best Practices
 
 - Use **GUI** for environment & robot design
 - Use **headless mode** for training & batch runs
@@ -212,7 +212,7 @@ Viewport → Disable RTX Effects
 
 ---
 
-## 🧠 Isaac Sim in Humanoid & VLA Pipelines
+## Isaac Sim in Humanoid & VLA Pipelines
 
 - **Vision:** RGB, depth, segmentation, synthetic datasets
 - **Language:** LLM-based planners via ROS 2 nodes
@@ -222,7 +222,7 @@ Viewport → Disable RTX Effects
 
 ---
 
-## 🔗 Related NVIDIA Tools
+## Related NVIDIA Tools
 
 - Isaac ROS  
 - Isaac Lab (RL Training)  
@@ -232,12 +232,12 @@ Viewport → Disable RTX Effects
 
 ---
 
-## 📌 Workflow Tip
+## Workflow Tip
 
 > **Design in GUI → Train headless → Integrate ROS 2 → Validate sim-to-real**
 
 ---
 
-## 🏁 License
+## License
 
 Refer to NVIDIA Isaac Sim and Omniverse licensing terms for research and commercial usage.

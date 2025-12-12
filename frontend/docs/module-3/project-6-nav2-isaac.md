@@ -1,6 +1,6 @@
 # Project 3.1: Nav2 Navigation in Isaac Sim
 
-## 📝 Introduction
+## Introduction
 
 **Project 3.1** focuses on implementing **autonomous navigation for robots using Nav2 within NVIDIA Isaac Sim**. This project allows learners to understand how **AI perception, mapping, and path planning** work together to enable robots to navigate complex virtual environments safely.
 
@@ -8,7 +8,7 @@ Isaac Sim provides a **high-fidelity simulated environment**, while Nav2 provide
 
 ---
 
-## 🌐 Objectives
+## Objectives
 
 * Understand Nav2 integration with Isaac Sim
 * Explore mapping, localization, and path planning in a simulated environment
@@ -17,7 +17,7 @@ Isaac Sim provides a **high-fidelity simulated environment**, while Nav2 provide
 
 ---
 
-## 🧠 Core Components
+## Core Components
 
 ### 1. Simulated Environment
 
@@ -51,7 +51,7 @@ Isaac Sim provides a **high-fidelity simulated environment**, while Nav2 provide
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. Launch Isaac Sim environment
 2. Integrate robot model with sensors
@@ -63,7 +63,7 @@ Isaac Sim provides a **high-fidelity simulated environment**, while Nav2 provide
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Indoor humanoid robot navigation
 * Autonomous mobile robots in structured environments
@@ -72,7 +72,7 @@ Isaac Sim provides a **high-fidelity simulated environment**, while Nav2 provide
 
 ---
 
-## ✅ Learning Outcomes
+## Learning Outcomes
 
 * Practical understanding of **Nav2 integration in Isaac Sim**
 * Ability to generate and utilize **maps for autonomous navigation**
@@ -81,7 +81,7 @@ Isaac Sim provides a **high-fidelity simulated environment**, while Nav2 provide
 
 ---
 
-## 🔗 References
+## References
 
 * NVIDIA Isaac Sim Documentation
 * ROS 2 Nav2 Tutorials

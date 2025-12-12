@@ -2,7 +2,7 @@
 
 ## Accelerated Perception and Localization for Autonomous Robots
 
-## 📝 Introduction
+## Introduction
 
 **Hardware-accelerated VSLAM (Visual Simultaneous Localization and Mapping)** refers to performing visual SLAM using **specialized computing hardware**, such as GPUs and AI accelerators, instead of relying only on CPUs. This approach enables robots to perceive their environment, localize themselves, and build maps **faster, more accurately, and more reliably**.
 
@@ -10,7 +10,7 @@ Hardware acceleration has become essential for modern robots operating in **real
 
 ---
 
-## 🧠 Why Hardware Acceleration is Needed in VSLAM
+## Why Hardware Acceleration is Needed in VSLAM
 
 VSLAM involves intensive computations, including:
 
@@ -23,7 +23,7 @@ These operations must run **continuously and in real time**, which can overwhelm
 
 ---
 
-## ⚙️ Types of Hardware Acceleration
+## Types of Hardware Acceleration
 
 ### GPU Acceleration
 
@@ -59,7 +59,7 @@ Modern edge platforms combine CPUs, GPUs, and AI accelerators on a single system
 
 ---
 
-## 🌐 Benefits of Hardware-Accelerated VSLAM
+## Benefits of Hardware-Accelerated VSLAM
 
 ### Real-Time Performance
 
@@ -81,7 +81,7 @@ Modern edge platforms combine CPUs, GPUs, and AI accelerators on a single system
 
 ---
 
-## 🔁 Role in the Robotics Software Stack
+## Role in the Robotics Software Stack
 
 Hardware-accelerated VSLAM integrates into the robotics pipeline as:
 
@@ -95,7 +95,7 @@ This integration is critical for autonomous behavior.
 
 ---
 
-## 🤖 Applications
+## Applications
 
 * Autonomous mobile robots
 * Humanoid navigation and balance
@@ -105,7 +105,7 @@ This integration is critical for autonomous behavior.
 
 ---
 
-## ⚠️ Challenges and Considerations
+## Challenges and Considerations
 
 * Requires compatible hardware platforms
 * Increased system complexity
@@ -115,12 +115,12 @@ Despite these challenges, hardware-accelerated VSLAM has become a **standard req
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 **Hardware-accelerated VSLAM enables robots to see, understand, and navigate the world in real time**. By leveraging GPUs and AI accelerators, it delivers the performance, accuracy, and robustness required for next-generation autonomous robots.
 
 ---
 
-## 📘 Key Takeaway
+## Key Takeaway
 
 > Hardware acceleration transforms VSLAM from a research concept into a deployable, real-world robotic capability.

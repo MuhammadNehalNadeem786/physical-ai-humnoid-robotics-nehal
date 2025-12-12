@@ -1,6 +1,6 @@
 # Project 4.1: Voice-Controlled Assistant
 
-## 📝 Introduction
+## Introduction
 
 **Project 4.1** focuses on developing a **voice-controlled humanoid assistant** using the **Vision-Language-Action (VLA) pipeline** in NVIDIA Isaac Sim. This project combines **real-time speech recognition, natural language understanding, action tokenization, and robot control** to enable humanoids to respond to verbal commands in dynamic environments.
 
@@ -8,7 +8,7 @@ The project serves as a **practical implementation of VLA concepts**, demonstrat
 
 ---
 
-## 🌐 Objectives
+## Objectives
 
 * Integrate real-time speech recognition (Whisper Live) with ROS 2
 * Map natural language instructions to **action tokens**
@@ -18,7 +18,7 @@ The project serves as a **practical implementation of VLA concepts**, demonstrat
 
 ---
 
-## 🧠 Core Components
+## Core Components
 
 ### 1. Speech Recognition
 
@@ -52,7 +52,7 @@ The project serves as a **practical implementation of VLA concepts**, demonstrat
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Audio Input:** Robot captures spoken commands
 2. **Speech-to-Text:** Whisper Live transcribes audio
@@ -64,7 +64,7 @@ The project serves as a **practical implementation of VLA concepts**, demonstrat
 
 ---
 
-## 🌐 Applications
+## Applications
 
 * Personal humanoid assistants in homes or offices
 * Service robots responding to voice instructions
@@ -73,7 +73,7 @@ The project serves as a **practical implementation of VLA concepts**, demonstrat
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 * Enables natural human-robot interaction through voice
 * Supports multi-step task execution and adaptive behaviors
@@ -82,7 +82,7 @@ The project serves as a **practical implementation of VLA concepts**, demonstrat
 
 ---
 
-## ⚠️ Challenges
+## Challenges
 
 * Managing speech recognition accuracy in noisy environments
 * Mapping complex instructions to reliable actions
@@ -91,7 +91,7 @@ The project serves as a **practical implementation of VLA concepts**, demonstrat
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 * Practical experience integrating speech recognition with humanoid control
 * Understanding of **action tokenization and multi-step task execution**
@@ -100,7 +100,7 @@ The project serves as a **practical implementation of VLA concepts**, demonstrat
 
 ---
 
-## 🔗 References
+## References
 
 * Whisper Live and ROS 2 Integration Guides
 * Action Tokenization Research in Robotics

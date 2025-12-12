@@ -1,6 +1,6 @@
 # Realistic Sensor Noise
 
-## 📝 Introduction
+## Introduction
 
 When simulating robots, adding **realistic sensor noise** is essential for **sim-to-real transfer**. Noise helps algorithms trained in simulation to **perform reliably on real hardware**, accounting for measurement errors, sensor inaccuracies, and environmental variations.
 
@@ -8,7 +8,7 @@ Gazebo allows **configurable noise models** for LiDAR, cameras, IMUs, and other 
 
 ---
 
-## 🔹 Types of Sensor Noise
+## Types of Sensor Noise
 
 ### 1. Gaussian Noise
 
@@ -37,7 +37,7 @@ Gazebo allows **configurable noise models** for LiDAR, cameras, IMUs, and other 
 
 ---
 
-## 🔹 Adding Noise in SDF Sensors
+## Adding Noise in SDF Sensors
 
 ### LiDAR Noise Example
 
@@ -93,7 +93,7 @@ Gazebo allows **configurable noise models** for LiDAR, cameras, IMUs, and other 
 
 ---
 
-## 🔹 Advantages of Realistic Noise
+## Advantages of Realistic Noise
 
 * Improves **sim-to-real transfer**.
 * Ensures algorithms are **robust to real-world sensor imperfections**.
@@ -101,7 +101,7 @@ Gazebo allows **configurable noise models** for LiDAR, cameras, IMUs, and other 
 
 ---
 
-## 🔹 Tips
+## Tips
 
 * Tune `stddev` according to the **actual sensor specifications**.
 * Combine **bias and drift** with Gaussian noise for realistic effects.
@@ -110,7 +110,7 @@ Gazebo allows **configurable noise models** for LiDAR, cameras, IMUs, and other 
 
 ---
 
-## 🔗 References
+## References
 
 1. [Gazebo Sensor Noise Documentation](http://gazebosim.org/tutorials?tut=ros_sensors)
 2. [Sim-to-Real Transfer in Robotics](https://arxiv.org/abs/2003.05495)

@@ -1,6 +1,6 @@
 # Human-Robot Interaction (HRI)
 
-## 📝 Introduction
+## Introduction
 
 **Human-Robot Interaction (HRI)** studies the **interactions between humans and robots**, focusing on making robots **understandable, usable, and safe** for humans. HRI integrates robotics, artificial intelligence, cognitive science, and human factors engineering.
 
@@ -13,7 +13,7 @@ Effective HRI ensures that robots can:
 
 ---
 
-## ⚙️ Key Components of HRI
+## Key Components of HRI
 
 1. **Perception**
 
@@ -42,7 +42,7 @@ Effective HRI ensures that robots can:
 
 ---
 
-## 🔹 Applications of HRI
+## Applications of HRI
 
 * **Collaborative Robots (Cobots)** in manufacturing.
 * **Assistive Robots** for elderly or disabled individuals.
@@ -52,7 +52,7 @@ Effective HRI ensures that robots can:
 
 ---
 
-## 🔹 Advantages
+## Advantages
 
 * Enhances **robot usability and acceptance**.
 * Improves **safety in shared human-robot spaces**.
@@ -61,7 +61,7 @@ Effective HRI ensures that robots can:
 
 ---
 
-## 🔹 Best Practices
+## Best Practices
 
 * Prioritize **user-centered design**.
 * Ensure **transparent robot behavior** for predictability.
@@ -71,7 +71,7 @@ Effective HRI ensures that robots can:
 
 ---
 
-## 🔗 References
+## References
 
 1. [Human-Robot Interaction Overview - Springer](https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-32386-0_188-1)
 2. [ACM/IEEE HRI Conference](https://humanrobotinteraction.org/)

@@ -4,7 +4,7 @@ The **Talker-Listener** example is the foundational project in ROS 2 for underst
 
 ---
 
-## 📝 Concept Overview
+## Concept Overview
 
 ROS 2 applications are built around **nodes**, which are independent processes that communicate via **topics**. The Talker-Listener project consists of two nodes:
 
@@ -23,7 +23,7 @@ This model introduces the **Publisher-Subscriber pattern**, which is one of the 
 
 ---
 
-## 🔑 Key Components
+## Key Components
 
 ### Node
 - The basic computational unit in ROS 2.
@@ -49,7 +49,7 @@ This model introduces the **Publisher-Subscriber pattern**, which is one of the 
 
 ---
 
-## 🚀 Learning Objectives
+## Learning Objectives
 
 By completing the Talker-Listener project, you will:
 
@@ -61,7 +61,7 @@ By completing the Talker-Listener project, you will:
 
 ---
 
-## ⚡ Real-World Analogy
+## Real-World Analogy
 
 - The **Talker node** is like a weather station broadcasting temperature readings.
 - The **Listener node** is like a mobile app that receives and displays the weather information.

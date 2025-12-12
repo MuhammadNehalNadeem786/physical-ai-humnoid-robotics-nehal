@@ -1,6 +1,6 @@
 # Recommended GPUs for Humanoid Robotics & VLA Systems
 
-## 🧠 Overview
+## Overview
 Selecting the right GPU is critical for **Vision–Language–Action (VLA)** pipelines in humanoid robotics. GPU choice depends on workload type:
 - **Model training**
 - **Real-time inference**
@@ -11,10 +11,10 @@ This document categorizes **recommended GPUs** based on professional robotics an
 
 ---
 
-## 🏢 Enterprise / Data-Center GPUs  
+## Enterprise / Data-Center GPUs  
 **(Large-scale training, simulation, multi-robot systems)**
 
-### ✅ NVIDIA H100 Tensor Core
+### NVIDIA H100 Tensor Core
 - Best-in-class GPU for large transformer models
 - Optimized for FP8 / FP16 / mixed-precision AI
 - Ideal for complex VLA model training and reasoning
@@ -25,7 +25,7 @@ Large-scale humanoid AI research, foundation model training
 
 ---
 
-### ✅ NVIDIA A100 Tensor Core
+### NVIDIA A100 Tensor Core
 - High memory capacity (40–80 GB variants)
 - Stable, mature ecosystem for deep learning
 - Excellent for training + deployment pipelines
@@ -35,7 +35,7 @@ On-premise AI servers, robotics research institutions
 
 ---
 
-### ✅ NVIDIA RTX A6000 (48 GB)
+### NVIDIA RTX A6000 (48 GB)
 - Workstation-grade alternative to data-center GPUs
 - Strong performance with ECC memory
 - Lower cost than H100/A100
@@ -45,10 +45,10 @@ Professional AI workstations, simulation + inference
 
 ---
 
-## 🧑‍🔬 Research & Development GPUs  
+## Research & Development GPUs  
 **(Local experimentation, prototyping, inference, fine-tuning)**
 
-### ✅ NVIDIA RTX 4090 (24 GB)
+### NVIDIA RTX 4090 (24 GB)
 - Best price-to-performance consumer GPU
 - Strong tensor core support
 - Capable of running medium-to-large VLA models
@@ -58,7 +58,7 @@ Robotics labs, AI developers, local model testing
 
 ---
 
-### ✅ NVIDIA RTX 4080 Super
+### NVIDIA RTX 4080 Super
 - Balanced performance and power efficiency
 - Suitable for vision and language inference workloads
 
@@ -67,7 +67,7 @@ AI development, perception and control pipelines
 
 ---
 
-### ✅ NVIDIA RTX 4070 Super
+### NVIDIA RTX 4070 Super
 - Entry-level option for robotics perception tasks
 - Limited VRAM but good compute efficiency
 
@@ -76,10 +76,10 @@ Students, early-stage robotics projects
 
 ---
 
-## 🤖 Edge / Embedded Robotics GPUs  
+## Edge / Embedded Robotics GPUs  
 **(On-board computation, low power, real-time responsiveness)**
 
-### ✅ NVIDIA Jetson AGX Orin
+### NVIDIA Jetson AGX Orin
 - Designed specifically for robotics and edge AI
 - Low-latency, low-power inference
 - ROS 2 and NVIDIA Isaac SDK support
@@ -89,7 +89,7 @@ Humanoid robots, mobile robots, on-device perception
 
 ---
 
-### ✅ NVIDIA Jetson Orin Nano / Xavier NX
+### NVIDIA Jetson Orin Nano / Xavier NX
 - Compact and power-efficient
 - Ideal for basic VLA inference and sensor fusion
 
@@ -98,7 +98,7 @@ Small humanoids, autonomous robots, embedded systems
 
 ---
 
-## ⚖️ GPU Selection Guide
+## GPU Selection Guide
 
 | Use Case                          | Recommended GPU        |
 |----------------------------------|------------------------|
@@ -110,7 +110,7 @@ Small humanoids, autonomous robots, embedded systems
 
 ---
 
-## ✅ Best-Practice Recommendation
+## Best-Practice Recommendation
 Modern humanoid robotics systems often benefit from a **hybrid GPU setup**:
 
 - **Edge GPU (Jetson):**  
@@ -122,7 +122,7 @@ Modern humanoid robotics systems often benefit from a **hybrid GPU setup**:
 
 ---
 
-## 📌 Final Note
+## Final Note
 Always match GPU selection to:
 - **Latency requirements**
 - **Model size**
