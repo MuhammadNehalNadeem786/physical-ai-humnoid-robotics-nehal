@@ -67,20 +67,7 @@ const structure = {
       { "capstone-project.md": "# Capstone: Autonomous Humanoid Assistant\n\nYour personal robot. Deployable on real hardware." },
     ]},
 
-    // { "advanced": [
-    //   { "sim-to-real.md": "# Sim-to-Real Transfer\n\nZero-shot deployment." },
-    //   { "reinforcement-learning.md": "# Reinforcement Learning\n\nTrain in Isaac Gym." },
-    //   { "humanoid-locomotion.md": "# Advanced Humanoid Locomotion\n\nMPC + RL." },
-    //   { "multi-modal-interaction.md": "# Multi-Modal Interaction\n\nVision + language + touch." },
-    // ]},
-
-    { "reference": [
-      { "hardware-kits.md": "# Hardware Kits\n\nFull shopping list." },
-      { "cloud-vs-onprem.md": "# Cloud vs On-Premise\n\nAWS g5 vs local lab." },
-      { "recommended-gpus.md": "# Recommended GPUs\n\nRTX 4070 Ti → 4090." },
-      { "ros2-cheatsheet.md": "# ROS 2 Cheatsheet\n\nOne-page reference." },
-      { "isaac-sim-commands.md": "# Isaac Sim Commands\n\nCLI reference." },
-    ]},
+    
   ]
 };
 

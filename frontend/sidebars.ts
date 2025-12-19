@@ -136,33 +136,7 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-
-    // --- ADVANCED TOPICS ---
-    // {
-    //   type: 'category',
-    //   label: 'Advanced Topics',
-    //   collapsed: true,
-    //   items: [
-    //     'advanced/sim-to-real',
-    //     'advanced/reinforcement-learning',
-    //     'advanced/humanoid-locomotion',
-    //     'advanced/multi-modal-interaction',
-    //   ],
-    // },
-
-    // --- REFERENCE ---
-    {
-      type: 'category',
-      label: 'Reference',
-      collapsed: true,
-      items: [
-        'reference/hardware-kits',
-        'reference/cloud-vs-onprem',
-        'reference/recommended-gpus',
-        'reference/ros2-cheatsheet',
-        'reference/isaac-sim-commands',
-      ],
-    },
+   
   ],
 };
 
